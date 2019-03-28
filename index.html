@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    
+     <!--custom css-->
+    <link rel="stylesheet" href="main.css">
+    <!--Bootstrap CDN-->
+    
+   <!-- Muli & Lato Font CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <!--Fontawsome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Jquery CDN  -->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <!--custom js-->
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <!-- Top Navigation -->
+    
+    <nav class="navbar navbar-fixed-top">
+        <div class="container mainWidth noPadding">
+            <div class="navbar-header">
+                <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
+                    <h6 class="hamb-menu-top">MENU</h6>
+                    <span class="hamb-top"></span>
+                    <span class="hamb-middle"></span>
+                    <span class="hamb-bottom"></span>
+                </button>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><img src="logo.png" width="118px" height="52px"></a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Top Navigation -->
+    
+    <!-- Side Navigation -->
+    
+    <div id="mySidenav" class="sidenav">
+        <div id="navContent" class="sidenavContent ">
+          <a href="#" class="sidenavhead" style="">MENU</a>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <hr>
+          <a href="#">Home</a>
+          <a href="#">Courses<span class="badge badge-secondary">New</span></a>
+          <a href="#">Videos<span class="badge badge-secondary">New</span></a>
+          <a href="#">Results & Testimonials</a>
+          <a href="#">UPSC Guru</a>
+          <a href="#">Scholarships</a>
+          <a href="#">FAQs</a>
+          <hr class="sidenavHline">
+          <a class="sidenavNote">Confused? Book a demo session for <strong>FREE</strong> with one of the mentors and understand how UPSC Pathshala     will help you secure the best results. </a>
+          <button type="button" class="btn sidenavdemoBtn">Get a Free Demo</button>
+          <a class="sidenavNote mt45">Download our app and stay updated about everything UPSC!</a>
+          <a href="#"  class="navAndriod"><img src="android.png" width="133px" height="40px"></a>
+          <a href="#" class="navApple"><img src="apple.png" width="133px" height="40px"></a>
+        </div>
+    </div>
+    
+    <!-- Side Navigation -->
+    
+    <!-- Page Content -->
+    <section>
+        <div class="container noPadding landingSecOne">
+            <div id="videoContent" class="introVideoRemove">
+                <button type="button" class="videoCloseBtn">&#10006;</button>
+                <iframe src="https://player.vimeo.com/video/321941292" class="introVideo " height="470" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+
+            <div id="introDiv" class="row">
+                <div class="col-md-6 col-xs-12 introMobile">
+                   <h1>Get your own personal coach for UPSC preparation!</h1>
+                    <p class="mainIntro">Try out a free demo session with one of our mentor to understand how <strong>UPSC Pathshala</strong> is your best companion during UPSC <br>preparation, based on your availability.</p> 
+                   
+                </div>
+                <div class="col-md-6 col-xs-12 introDivMobile">
+                    <img src="Element%20(3).png" class="videoImg imgA1" width="500px" height="283px">
+                    <img src="Element%20(2).png" class="videoImg imgB1" width="477px" height="200px">
+                    <img src="Element%20(1).png" class="supportImg" width="500px" height="140px">
+                </div>
+            </div>
+             <button type="button" class="btn btn-default getDemoBtn">Get a Free Demo</button>
+        </div>
+        <div class="facts">
+            <div class="container mainWidth">
+                <div class="row mt45">
+                    <div class="col-md-4 col-xs-4">
+                        <div class="col-md-4 col-xs-12"><img src="student.png" width="55px" height="67px"></div>
+                        <div class="col-md-8 col-xs-12 noPadding"><p><strong>5000+</strong> <span>Students</span></p></div>
+                    
+                    </div>
+                    <div class="col-md-4 col-xs-4">
+                        <div class="col-md-4 col-xs-12"><img src="success.png" width="55px" height="67px"></div>
+                        <div class="col-md-8 col-xs-12 noPadding"><p><strong>2X </strong><span>Success Rate</span></p></div>
+                        
+                    </div>
+                    <div class="col-md-4 col-xs-4">
+                        <div class="col-md-4 col-xs-12"><img src="mentor.png" width="55px" height="67px"></div>
+                        <div class="col-md-8 col-xs-12 noPadding"><p><strong>80+ </strong><span>Mentors</span></p></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="landingSecTwo">
+        <h2>How do we get the results?</h2>
+        <div class="container noPadding mainWidth">
+            <div class="row mb45 mt45">
+                <div class="col-md-6 col-xs-12">
+                    <h3>Amazing quality video content </h3>
+                    <p>Amazing videos covering the entire syllabus of General studies, Current affairs and CSAT for both prelims and mains exam. You also get check-point questions after every video to review your understanding. Unlike classroom recordings, UPSC PATHSHALA videos are shot with proper research and preparation to ensure that you get the precise content. </p>
+                    <a href="#"> See Sample Videos </a>
+                </div>
+                <div class="col-md-6  col-xs-12"><img src="" width="445px" height="342px"></div>
+            </div>
+            <div class="row mb45 personalMentor1">
+                <div class="col-md-6 col-xs-12"><img src="" width="445px" height="342px"></div>
+                <div class="col-md-6  col-xs-12">
+                    <h3>Personal Mentor </h3>
+                    <p>UPSC preparation is a long journey and it’s very important to have an experienced mentor who can guide you at every step of the preparation. UPSC PATHSHALA offers you a dedicated mentor who makes your study plan, solves your doubts, discuss current affairs, evaluates your answers and keeps you focused on your path. </p>
+                    <a href="#">Try UPSC Guru</a>
+                </div>
+            </div>
+            
+            <div class="row mb45 personalMentor2">
+                <div class="col-md-6  col-xs-12">
+                    <h3>Personal Mentor </h3>
+                    <p>UPSC preparation is a long journey and it’s very important to have an experienced mentor who can guide you at every step of the preparation. UPSC PATHSHALA offers you a dedicated mentor who makes your study plan, solves your doubts, discuss current affairs, evaluates your answers and keeps you focused on your path. </p>
+                    <a href="#">Try UPSC Guru</a>
+                </div>
+                <div class="col-md-6 col-xs-12"><img src="" width="445px" height="342px"></div>
+            </div>
+            
+            
+            <div class="row mb45">
+                
+                <div class="col-md-6">
+                    <h3>Lots of Practice </h3>
+                    <p>Keep a track of your preparation with a regular test series of UPSC standard. Get Check-point questions after every videos. Module wise tests to check your progress regularly and Full tests consisting of GS + Current Affairs for exam like feel. </p>
+                    <a href="#"> Check Courses </a>
+                </div>
+                <div class="col-md-6  col-xs-12"><img src="" width="445px" height="342px"></div>
+                
+            </div>
+           
+        
+        </div>
+    </section>
+    <section  id="landingSecThree">
+        <h2>What our students have to say? </h2>
+        <div class="testimonials">
+            <div class="container mainWidth">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 45px">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                      <div class="row">
+                          <div class="col-md-3  col-xs-12 testimonialImg">
+                              <img src="" width="135px" height="135px" style="">
+                              <h4>John Doe </h4>
+                              <h5>AIR 3, UPSC 2015 </h5>
+                          </div>
+                          <div class="col-md-9  col-xs-12">
+                            <p><i class="fas fa-quote-left"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="item ">
+                      <div class="row">
+                          <div class="col-md-3  col-xs-12 testimonialImg">
+                              <img src="" width="135px" height="135px">
+                              <h4>Varun M </h4>
+                              <h5>AIR 1, UPSC 2020 </h5>
+                          </div>
+                          <div class="col-md-9  col-xs-12">
+                            <p><i class="fas fa-quote-left"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="item ">
+                      <div class="row">
+                          <div class="col-md-3 col-xs-12 testimonialImg">
+                              <img src="" width="135px" height="135px">
+                              <h4>John Doe </h4>
+                              <h5>AIR 3, UPSC 2015 </h5>
+                          </div>
+                          <div class="col-md-9 col-xs-12">
+                            <p><i class="fas fa-quote-left"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="item ">
+                      <div class="row">
+                          <div class="col-md-3 col-xs-12 testimonialImg">
+                              <img src="" width="135px" height="135px">
+                              <h4>John Doe </h4>
+                              <h5>AIR 3, UPSC 2015 </h5>
+                          </div>
+                          <div class="col-md-9 col-xs-12">
+                            <p><i class="fas fa-quote-left"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <h3 style="font-weight: bold;font-size: 16px;line-height: normal;text-align: center;
+color: #463DFF;" class=" mb45"><a href="#">See all Testimonials</a></h3>
+    </section>
+    <section id="landingSecFour">
+        <div class="container noPadding mainWidth">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 style="font-weight: bold;font-size: 24px;line-height: 38px;">Still confused?</h2>
+                    <p style="font-size: 16px;line-height: 24px;color: rgba(51, 51, 51, 0.6);">Download our app and stay updated about everything UPSC!</p>
+                </div>
+                <div class="col-md-6 mt45">
+                    <div class="col-md-6"><img src="android.png" width="159px" height="48px"></div>
+                    <div class="col-md-6"><img src="android.png" width="159px" height="48px"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="landingSecFive">
+        <div class="footer">
+            <div class="container noPadding mainWidth footerMobile">
+                <div class="col-md-12 col-xs-12 noPadding mt45" style="margin-left: -13px"><img src="logo1.png" width="230px" height="95px;"></div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <p style="font-size: 12px;line-height: 18px;color: rgba(255, 255, 255, 0.6);">PRODUCT OF </p>
+                        <p style="font-weight: 900;font-size: 14px;line-height: 21px;color: #FFFFFF;">uFaber Edutech Pvt. Ltd. <br><span  style="font-weight: normal;">No. 1 Private training for UPSC Prepartions</span></p>
+                        <p style="font-size: 12px;line-height: 18px;color: rgba(255, 255, 255, 0.6);"> ADDRESS </p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;">FF A-006, Art Guild House , Phoenix Market City,<br> Kurla, Mumbai</p>
+                        <p style="font-size: 12px;line-height: 18px;color: rgba(255, 255, 255, 0.6);"> CONTACT NO. </p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;">+91 8080-555-766 </p><br><br>
+                        <p style="font-size: 12px;line-height: 18px;color: rgba(255, 255, 255, 0.6);"> CONNECT WITH US </p>
+                        <p class="socialLinks">
+                            <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        </p><br><br>
+                        
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <p style="font-size: 12px;line-height: 18px;color: rgba(255, 255, 255, 0.6);"> SITEMAP </p>
+                        <p style="font-size: 14px;line-height: 21px;"><a href="#" style="color: #FFFFFF;">All courses</a></p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;">Sample Videos</a></p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;">UPSC Guru</a></p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;">Results & Testimonials</a> </p><br>
+                        <p style="font-size: 12px;line-height: 18px;color: rgba(255, 255, 255, 0.6);"> INFORMATION  </p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;">About Us </a></p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;">Contact Us</a>  </p>
+                    
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <p style="font-size: 12px;line-height: 18px;color: rgba(255, 255, 255, 0.6);"> SUPPORT  </p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;">FAQs (Commonly Asked Questions) </a>  </p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;">Scholarships</a>  </p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;"> UPSC Exam Details </a>  </p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;">Blogs </a>  </p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;">Careers</a>  </p>
+                        <p style="font-size: 14px;line-height: 21px;color: #FFFFFF;"><a href="#" style="color: #FFFFFF;">Terms of Use</a>  </p>
+                    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <p style="font-weight: bold;font-size: 16px;line-height: 24px;color: rgba(255, 255, 255, 0.8);">Don’t waste time in browsing several apps! </p>
+                        <p style="font-weight: bold;font-size: 16px;line-height: 24px;color: rgba(255, 255, 255, 0.8);">The only app that you need for UPSC preparation is here!</p>
+                    </div>
+                    <div class="col-md-6 col-xs-12 appstoreMobile">
+                        <div class="col-md-6 col-xs-6"><img src="android.png" width="189px" height="57px"></div>
+                        <div class="col-md-6 col-xs-6"><img src="apple.png" width="189px" height="57px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+<!-- /#page-conten -->
+    
+
+</body>
+</html> 

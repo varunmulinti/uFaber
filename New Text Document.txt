@@ -1,0 +1,61 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 45px">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                      <div class="row">
+                          <div class="col-md-3">
+                              <img src="" width="135px" height="135px" style="border: 3px solid white;border-radius: 50%;margin-top: 15px;margin-bottom: 20px;">
+                              <p style="position: relative;left: 40px;color: white;font-style: italic;font-size: 16px;">John Doe </p>
+                              <p style="position: relative;left: 12px;color: white;font-style: italic;font-size: 16px;">AIR 3, UPSC 2015 </p>
+                          </div>
+                          <div class="col-md-9">
+                            <p style="color: white;font-style: italic;font-weight: bold;font-size: 20px;line-height: 36px;text-align: center;opacity: 0.9;padding: 35px"><i class="fas fa-quote-left" style="position: relative;bottom: 40px;right: 20px"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right" style="position: relative;top: 40px; left: 280px;transform: rotate(180deg) scaleX(-1);"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="item ">
+                      <div class="row">
+                          <div class="col-md-3">
+                              <img src="" width="135px" height="135px" style="border: 3px solid white;border-radius: 50%;margin-top: 15px;margin-bottom: 20px;">
+                              <p style="position: relative;left: 40px;color: white;font-style: italic;font-size: 16px;">Varun M </p>
+                              <p style="position: relative;left: 12px;color: white;font-style: italic;font-size: 16px;">AIR 1, UPSC 2020 </p>
+                          </div>
+                          <div class="col-md-9">
+                            <p style="color: white;font-style: italic;font-weight: bold;font-size: 20px;line-height: 36px;text-align: center;opacity: 0.9;padding: 35px"><i class="fas fa-quote-left" style="position: relative;bottom: 40px;right: 20px"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right" style="position: relative;top: 40px; left: 280px;transform: rotate(180deg) scaleX(-1);"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="item ">
+                      <div class="row">
+                          <div class="col-md-3">
+                              <img src="" width="135px" height="135px" style="border: 3px solid white;border-radius: 50%;margin-top: 15px;margin-bottom: 20px;">
+                              <p style="position: relative;left: 40px;color: white;font-style: italic;font-size: 16px;">John Doe </p>
+                              <p style="position: relative;left: 12px;color: white;font-style: italic;font-size: 16px;">AIR 3, UPSC 2015 </p>
+                          </div>
+                          <div class="col-md-9">
+                            <p style="color: white;font-style: italic;font-weight: bold;font-size: 20px;line-height: 36px;text-align: center;opacity: 0.9;padding: 35px"><i class="fas fa-quote-left" style="position: relative;bottom: 40px;right: 20px"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right" style="position: relative;top: 40px; left: 280px;transform: rotate(180deg) scaleX(-1);"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="item ">
+                      <div class="row">
+                          <div class="col-md-3">
+                              <img src="" width="135px" height="135px" style="border: 3px solid white;border-radius: 50%;margin-top: 15px;margin-bottom: 20px;">
+                              <p style="position: relative;left: 40px;color: white;font-style: italic;font-size: 16px;">John Doe </p>
+                              <p style="position: relative;left: 12px;color: white;font-style: italic;font-size: 16px;">AIR 3, UPSC 2015 </p>
+                          </div>
+                          <div class="col-md-9">
+                            <p style="color: white;font-style: italic;font-weight: bold;font-size: 20px;line-height: 36px;text-align: center;opacity: 0.9;padding: 35px"><i class="fas fa-quote-left" style="position: relative;bottom: 40px;right: 20px"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right" style="position: relative;top: 40px; left: 280px;transform: rotate(180deg) scaleX(-1);"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
