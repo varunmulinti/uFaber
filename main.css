@@ -16,21 +16,35 @@ p{
     min-height: 70px;
     background-color: white;
 }
-
-.mt60{
-    margin-top: 60px;
-}
-.noPadding{
-    padding: 0px;
+.inline{
+    display: inline;
 }
 .noMargin{
-    margin: 0px;
+    margin: 0px !important;
 }
 .mt45{
-    margin-top: 45px;
+    margin-top: 45px !important;
 }
 .mb45{
-    margin-bottom: 45px;
+    margin-bottom: 45px !important;
+}
+.mt60{
+    margin-top: 60px !important;
+}
+.mb60{
+    margin-bottom: 60px !important;
+}
+.mt80{
+    margin-top: 80px !important;
+}
+.noPadding{
+    padding: 0px !important;
+}
+.pt38{
+padding-top: 38px !important;
+}
+.pb38{
+    padding-bottom: 38px !important;
 }
 .pd40{
     padding-right: 40px;
@@ -405,14 +419,132 @@ border-radius: 4px;
     min-height: 616px;
     background: linear-gradient(118.47deg, #1E80C4 -24.25%, #B100FF -24.24%, #463DFF 54.83%, #3E41BF 133.04%);
 }
+.footerLogo{
+    margin-left: -13px;
+}
+.footerMobile h5{
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footerUfaber{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footerMobile p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footerMobile a{
+    color: #FFFFFF;
+}
+.footerDownload p{
+    font-weight: bold;font-size: 16px;line-height: 24px;color: rgba(255, 255, 255, 0.8);
+}
 .socialLinks a{
     color: white;
     margin-right: 25px
 }
+/*-------------------------------*/
+/*           FAQ'S        */
+/*-------------------------------*/
 
-
-
-
+.questions{
+    min-height: 338px;
+    width: 100%;
+    background: linear-gradient(119.21deg, #B100FF -8.03%, #463DFF 41.12%, #3E41BF 102.57%);
+}
+.questions h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+        text-align: center;
+    margin-top: 40px;
+}
+.questions p{
+        margin-top: 10px;
+}
+.questionsMain{
+    background-color: white;
+    width: 212px;
+    height: 168px;
+    text-align: center;
+    font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+        margin: 40px 11px;
+    padding: 15px 0px;
+}
+.questionsHead{
+   background: linear-gradient(103.4deg, #B100FF -5.13%, #463DFF 41.35%, #3E41BF 105.57%);
+}
+.questionsHead h5{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.questionsHead img{
+    margin-top: -10px;
+    margin-right: 10px
+}
+.questionsPlus{
+    font-size: 16px;
+line-height: 24px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+color: #333333;
+    text-decoration: none;
+}
+a:focus, a:hover{
+    text-decoration: none;
+}
+.questionsPlus:before {
+  content: "\2212";
+  color: #777;
+  font-weight: bold;
+    display: inline;
+    margin-right: 10px;
+}
+.questionsPlus.collapsed:before {
+    content: '\002B';
+}
+.panel-body{
+    border-top: 0px !important;
+    
+}
+.outerPanel{
+    box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
+    margin-bottom: 40px !important;
+}
+.questionsPanelDes{
+    margin: 0px 100px;
+}
+.questionsDescription{
+    font-size: 16px;
+line-height: 29px;
+    margin-left: 25px;
+color: rgba(0, 0, 0, 0.6);
+}
+.contact{
+    background: #FBFBFB;
+}
+.contact h3{
+    font-weight: bold;
+font-size: 24px;
+line-height: 38px;
+color: #333333;
+}
+.contact p{
+    font-size: 16px;
+line-height: 24px;
+color: rgba(51, 51, 51, 0.6);
+}
 /*-------------------------------*/
 /*           Media Query         */
 /*-------------------------------*/
@@ -505,5 +637,23 @@ line-height: 24px;
     }
     .appstoreMobile{
         margin-left: -13px;
+    }
+    .faqSecOne img{
+        width: 250px;
+        height: 200px;
+            margin-left: 70px;
+    }
+    .questions{
+        width: 125%;
+    }
+    .questionsMain{
+        margin-left: 120px;
+    }
+    .mobilePanel{
+        margin-left: 20px;
+    margin-right: -90px;
+    }
+    .questionsPanelDes{
+        margin: 0px;
     }
 }
