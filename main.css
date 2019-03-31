@@ -22,6 +22,9 @@ p{
 .noMargin{
     margin: 0px !important;
 }
+.mb30{
+    margin-bottom: 30px;
+}
 .mt45{
     margin-top: 45px !important;
 }
@@ -39,6 +42,12 @@ p{
 }
 .noPadding{
     padding: 0px !important;
+}
+.pt20{
+    padding-top: 20px !important;
+}
+.pb40{
+    padding-bottom: 40px !important;
 }
 .pt38{
 padding-top: 38px !important;
@@ -244,7 +253,6 @@ color: #FFFFFF;
     font-weight: 800;
     font-size: 32px;
     line-height: 50px;
-    margin-top:45px;
 }
 .videoImg {
   position: absolute;
@@ -531,7 +539,7 @@ line-height: 29px;
     margin-left: 25px;
 color: rgba(0, 0, 0, 0.6);
 }
-.contact{
+.greyBackground{
     background: #FBFBFB;
 }
 .contact h3{
@@ -545,6 +553,37 @@ color: #333333;
 line-height: 24px;
 color: rgba(51, 51, 51, 0.6);
 }
+/*-------------------------------*/
+/*           scholarship       */
+/*-------------------------------*/
+
+.scholarshipSecTwo h2{
+    font-weight: bold;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+color: #333333;
+}
+.scholarshipSecTwo h3{
+    text-align: center;
+    font-size: 40px;
+    color: #3E41BF;
+}
+.scholarshipSecTwo p{
+    font-size: 14px;
+line-height: 21px;
+text-align: center;
+}
+.scholarshipSecFour h2{
+    font-weight: bold;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+color: #333333;
+}
+
+
+
 /*-------------------------------*/
 /*           Media Query         */
 /*-------------------------------*/
@@ -655,5 +694,17 @@ line-height: 24px;
     }
     .questionsPanelDes{
         margin: 0px;
+    }
+    .scholarshipSecOne img{
+        margin-top: -420px
+    }
+    .scholarshipSecOne button{
+            margin: 240px 0px 0px 0px;
+    }
+    .greyBackground {
+        width: 125%;
+    }
+    .scholarshipSecFour{
+        margin-right: -90px;
     }
 }
