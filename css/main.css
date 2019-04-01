@@ -12,6 +12,21 @@ h1,h2,h3,h4,h5,h6{
 p{
     font-family: 'Lato', sans-serif;
 }
+h1{
+    font-weight: 800;
+font-size: 32px;
+line-height: 50px;
+color: #333333;
+}
+h2{
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: normal;
+color: #333333;
+line-height: 38px;
+    
+}
 .navbar-fixed-top{
     min-height: 70px;
     background-color: white;
@@ -21,6 +36,9 @@ p{
 }
 .noMargin{
     margin: 0px !important;
+}
+.mr25{
+    margin-right: 25px;
 }
 .mb30{
     margin-bottom: 30px;
@@ -40,11 +58,20 @@ p{
 .mt80{
     margin-top: 80px !important;
 }
+.mb90{
+    margin-bottom: 90px;
+}
 .noPadding{
     padding: 0px !important;
 }
 .pt20{
     padding-top: 20px !important;
+}
+.pt30{
+    padding-top: 30px !important;
+}
+.pb30{
+    padding-bottom: 30px !important;
 }
 .pb40{
     padding-bottom: 40px !important;
@@ -61,6 +88,9 @@ padding-top: 38px !important;
 .mainWidth{
     max-width:940px;
 }
+.colorWhite{
+    color: white;
+}
 /*-------------------------------*/
 /*     Topr nav styles        */
 /*-------------------------------*/
@@ -70,6 +100,12 @@ padding-top: 38px !important;
 }
 .navbar-right{
     margin-left: 290px;
+}
+.nav>li{
+    position: absolute;
+}
+..nav>li>a{
+    position: absolute;
 }
 /*-------------------------------*/
 /*     Sidebar nav styles        */
@@ -339,7 +375,8 @@ min-height: 150px;
     margin-top: 20px;
 }
 #landingSecTwo h2{
-    font-weight: bold;font-size: 24px;line-height: 38px;text-align: center;margin-bottom: 35px
+    text-align: center;
+    margin-bottom: 35px
 }
 #landingSecTwo h3{
     font-family: Lato;
@@ -363,13 +400,13 @@ min-height: 150px;
     color: #463DFF;
 }
 #landingSecThree h2{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 38px;
     text-align: center;
     margin-bottom: 35px;
 }
-.carousel-inner img{
+.testimonialHeight{
+    min-height: 230px;
+}
+.testimonialsCarousel img{
     border: 3px solid white;
     border-radius: 50%;
     margin-top: 15px;
@@ -386,15 +423,17 @@ min-height: 150px;
     bottom: 40px;right: 20px
 }
 .item h4{
-    position: relative;
-    left: 40px;
+    top: 155px;
+    position: absolute;
+    left: 53px;
     color: white;
     font-style: italic;
     font-size: 16px;
 }
 .item h5{
-    position: relative;
-    left: 12px;
+    position: absolute;
+    left: 18px;
+    top: 180px;
     color: white;
     font-style: italic;
     font-size: 16px;
@@ -416,8 +455,7 @@ min-height: 150px;
 .testimonials{
     width: 100%;
 min-height: 324px;
-    background: linear-gradient(166.45deg, #B100FF -9.35%, #463DFF 54.84%, #3E41BF 118.32%);
-border-radius: 4px;
+    background: linear-gradient(114.27deg, #B100FF -8.03%, #463DFF 41.12%, #3E41BF 102.57%);
 }
 .testimonials ol{
     margin: 0px 0px -40px -270px;
@@ -466,17 +504,15 @@ border-radius: 4px;
     background: linear-gradient(119.21deg, #B100FF -8.03%, #463DFF 41.12%, #3E41BF 102.57%);
 }
 .questions h2{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 38px;
     color: #FFFFFF;
-        text-align: center;
     margin-top: 40px;
+    text-align: center;
 }
 .questions p{
         margin-top: 10px;
 }
 .questionsMain{
+    border-radius: 4px;
     background-color: white;
     width: 212px;
     height: 168px;
@@ -558,11 +594,7 @@ color: rgba(51, 51, 51, 0.6);
 /*-------------------------------*/
 
 .scholarshipSecTwo h2{
-    font-weight: bold;
-font-size: 24px;
-line-height: 38px;
 text-align: center;
-color: #333333;
 }
 .scholarshipSecTwo h3{
     text-align: center;
@@ -575,14 +607,84 @@ line-height: 21px;
 text-align: center;
 }
 .scholarshipSecFour h2{
-    font-weight: bold;
-font-size: 24px;
-line-height: 38px;
 text-align: center;
-color: #333333;
 }
 
 
+
+
+
+.resultSecOne p{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 29px;
+color: rgba(51, 51, 51, 0.6);
+}
+.resultInnerCarousel img{
+    width: 988px;
+    height: 416px !important;
+}
+.resultCarouselControls{
+       
+    border-radius: 4px;
+    height: 48px;
+    top: 200px;
+    background: white;
+    left: 25px;
+    width: 48px;
+    color: black;
+    opacity: 1;
+}
+.resultCarouselControls.left{
+     background-image: none;
+}
+.resultCarouselControls .glyphicon-chevron-left, .resultCarouselControls .glyphicon-chevron-right{
+        width: 10px;
+    height: 10px;
+    margin-top: -12px;
+    font-size: 20px;
+}
+.resultCarouselControls .glyphicon-chevron-right{
+        margin-right: 0px;
+}
+.resultCarouselControls.right{
+    right:20px;
+    background-image: none;
+}
+.resultQuoteRight{
+    left: 155px;
+}
+.resultTestimonial h2{
+    text-align: center;
+}
+.resultTestimonialBox{
+        text-align: center;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
+    border-radius: 6px;
+    padding: 45px 20px 15px 20px;
+    max-width: 300px;
+}
+.resultTestimonialBox h3{
+        font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+}
+.resultTestimonialBox p{
+        font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.6);
+}
+.resultTestimonialImage{
+    position: absolute;
+    bottom: 170px;
+    left: 90px;
+}
+.resultTestimonialImage img{
+    border-radius: 50%;
+}
 
 /*-------------------------------*/
 /*           Media Query         */
@@ -706,5 +808,27 @@ line-height: 24px;
     }
     .scholarshipSecFour{
         margin-right: -90px;
+    }
+    .resultSecOne{
+        margin-left: 25px;
+        width: 102%;
+    }
+    .resultChamp{
+        height: 600px;
+    }
+    .resultChamp h2{
+        margin-left: 0px !important;
+    }
+    .resultTestimonial {
+        margin-left: 90px;
+    }
+    .resultTestimonialBox{
+        margin-bottom: 90px;
+    }
+    .resultDemoBtn{
+        margin: 0px;
+    }
+    .resultDemo{
+        margin-left: 10px;
     }
 }
