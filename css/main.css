@@ -64,6 +64,9 @@ line-height: 38px;
 .noPadding{
     padding: 0px !important;
 }
+.p32{
+    padding: 32px;
+}
 .pt20{
     padding-top: 20px !important;
 }
@@ -684,8 +687,70 @@ color: rgba(51, 51, 51, 0.6);
 /*-------------------------------*/
 /*         About us              */
 /*-------------------------------*/
-
-
+.aboutSecOne img{
+    width: 100%;
+    max-height: 320px;
+}
+.aboutUpsc{
+    position: relative;
+    background-color: white;
+    bottom: 76px;
+    right: 40px;
+    padding: 32px;
+    box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
+}
+.aboutUpsc h2, .aboutPhilosophy h2{
+    text-align: center;
+}
+.aboutUpsc p{
+    font-size: 16px;
+line-height: 29px;
+color: rgba(51, 51, 51, 0.6);
+}
+.aboutPhilosophy h3{
+    font-weight: 600;
+font-size: 16px;
+line-height: normal;
+text-align: center;
+}
+.aboutPhilosophy p{
+    font-size: 14px;
+line-height: 21px;
+color: rgba(51, 51, 51, 0.8);
+}
+.aboutPhilosophy img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.team{
+        font-size: 16px;
+    line-height: 29px;
+    color: rgba(51, 51, 51, 0.6);
+    padding: 0px 140px;
+    margin-bottom: 100px;
+}
+.teamBox h4{
+    font-size: 14px;
+line-height: 21px;
+text-align: center;
+    font-weight: bold
+}
+.teamBox h5{
+    font-size: 14px;
+line-height: 25px;
+text-align: center;
+color: rgba(51, 51, 51, 0.6);
+}
+.teamBox p{
+    font-size: 12px;
+line-height: 22px;
+text-align: center;
+color: rgba(51, 51, 51, 0.6);
+}
+.teamBox .socialLinks a{
+    color: #337ab7;
+}
 /*-------------------------------*/
 /*           Media Query         */
 /*-------------------------------*/
@@ -830,5 +895,14 @@ line-height: 24px;
     }
     .resultDemo{
         margin-left: 10px;
+    }
+    .aboutUpsc{
+        right: 37px;
+    }
+    .aboutPhilosophy p{
+        text-align: center;
+    }
+    .team{
+        padding: 0px;
     }
 }
