@@ -101,12 +101,6 @@ padding-top: 38px !important;
 .navbar-right{
     margin-left: 290px;
 }
-.nav>li{
-    position: absolute;
-}
-..nav>li>a{
-    position: absolute;
-}
 /*-------------------------------*/
 /*     Sidebar nav styles        */
 /*-------------------------------*/
@@ -611,7 +605,9 @@ text-align: center;
 }
 
 
-
+/*-------------------------------*/
+/*   Results and testimonials    */
+/*-------------------------------*/
 
 
 .resultSecOne p{
@@ -685,6 +681,10 @@ color: rgba(51, 51, 51, 0.6);
 .resultTestimonialImage img{
     border-radius: 50%;
 }
+/*-------------------------------*/
+/*         About us              */
+/*-------------------------------*/
+
 
 /*-------------------------------*/
 /*           Media Query         */
