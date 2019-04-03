@@ -798,6 +798,9 @@ color: rgba(51, 51, 51, 0.6);
 
 
 @media screen and (max-width: 480px) {
+    .navbar-right{
+        margin-left: 220px;
+    }
   .introVideo {
     width: 86%;
   }
@@ -806,7 +809,8 @@ color: rgba(51, 51, 51, 0.6);
     }
     
     .imgB1{
-        width: 400px;
+        width: 360px;
+        left: 0px;
     }
     .navbar-header{
         margin-left: 15px !important;
@@ -823,21 +827,17 @@ color: rgba(51, 51, 51, 0.6);
         display: none;
     }
     .getDemoBtn{
-            margin: 240px 0px 0px 115px;
+            margin: 240px 0px 0px 50px;
     }
     .introDivMobile{
             margin-top: -80px;
     }
     .facts{
-        width: 125%;
             margin-top: 56px;
     }
     .facts p{
-        font-size: 16px;
+        font-size: 12px;
 line-height: 24px;
-    }
-    #landingSecTwo{
-        margin-left: 40px
     }
     #landingSecTwo h2{
         font-size: 20px;
@@ -845,7 +845,7 @@ line-height: 24px;
         margin-bottom: -40px;
     }
     #landingSecTwo img{
-        width: 360px
+        width: 330px
     }
     .personalMentor1{
         display: none;
@@ -854,35 +854,38 @@ line-height: 24px;
         display: block;
     }
     .testimonials{
-        width: 125%;
         height: 511px
     }
     .fa-quote-right{
         left:180px;
     }
     .testimonialImg{
-        margin-left: 128px;
+        margin-left: 95px;
+            margin-bottom: 30px;
     }
     .item p{
         font-size: 16px;
         line-height: 29px;
     }
     .testimonials ol{
-        margin: 0px 0px -35px -125px;
+        margin: 0px 0px -35px -105px;
+    }
+    .landing-quote-right{
+        left:30px;
     }
     #landingSecThree h2{
         font-size: 20px;
         line-height: 31px;
-        margin-left: 65px;
     }
     .footer, .questions, .greyBackground, .backgroundBlue{
         width: 125%;
     }
-    .footerMobile{
-        margin-left: 40px;
-    }
     .appstoreMobile{
         margin-left: -13px;
+    }
+    .appstoreMobile img{
+        width: 150px;
+        height: 53px;
     }
     .faqSecOne img{
         width: 250px;
