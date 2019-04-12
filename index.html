@@ -33,16 +33,17 @@
     
     <nav class="navbar navbar-fixed-top">
         <div class="container mainWidth noPadding">
-            <div class="navbar-header">
+            <a href="index.html"><img class="navLogo" src="images/logo.png" width="250px" height="36px"></a>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><div class="navbar-header">
                 <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
                     <h6 class="hamb-menu-top">MENU</h6>
                     <span class="hamb-top"></span>
                     <span class="hamb-middle"></span>
                     <span class="hamb-bottom"></span>
                 </button>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html"><img src="images/logo.png" width="118px" height="52px"></a></li>
+            </div></li>
             </ul>
         </div>
     </nav>
@@ -83,18 +84,18 @@
             </div>
 
             <div id="introDiv" class="row">
-                <div class="col-md-6 col-xs-12 ">
-                   <h1 class="mt45">Get your own personal coach for UPSC preparation!</h1>
-                    <p class="mainIntro">Try out a free demo session with one of our mentor to understand how <strong>UPSC Pathshala</strong> is your best companion during UPSC <br>preparation, based on your availability.</p> 
-                   
+                <div class="col-md-3 col-xs-12 introDivMobile">
+                    <img src="images/landing1.png" class="videoImg" width="650px" height="656px">
+                    <img src="images/foundation1.1.png" class="imgA1" width="170px" height="167px">
                 </div>
-                <div class="col-md-6 col-xs-12 introDivMobile">
-                    <img src="images/Element%20(3).png" class="videoImg imgA1" width="500px" height="283px">
-                    <img src="images/Element%20(2).png" class="videoImg imgB1" width="477px" height="200px">
-                    <img src="images/Element%20(1).png" class="supportImg" width="500px" height="140px">
+                <div class="col-md-7 col-xs-12 ml150 mt20">
+                   <h1 class="mt45">Get your own personal coach for</h1>
+                    <h1 class="lineHeight38">UPSC preparation!</h1>
+                    <p class="mainIntro mt45 mb45">Try out a free demo session with one of our mentor to understand how <strong>UPSC Pathshala</strong> is your best companion during UPSC preparation, based on your availability.</p> 
+                   <button type="button" class="btn btn-default getDemoBtn">Get a Free Demo</button>
                 </div>
             </div>
-             <button type="button" class="btn btn-default getDemoBtn">Get a Free Demo</button>
+             
         </div>
         <div class="facts">
             <div class="container mainWidth">
@@ -118,8 +119,8 @@
             </div>
         </div>
     </section>
-    <section id="landingSecTwo">
-        <h2>How do we get the results?</h2>
+    <section class="landingSecTwo">
+        <h2 class="textCentre">How do we get the results?</h2>
         <div class="container mainWidth">
             <div class="row mb45 mt45">
                 <div class="col-md-6 col-xs-12">
@@ -127,10 +128,10 @@
                     <p>Amazing videos covering the entire syllabus of General studies, Current affairs and CSAT for both prelims and mains exam. You also get check-point questions after every video to review your understanding. Unlike classroom recordings, UPSC PATHSHALA videos are shot with proper research and preparation to ensure that you get the precise content. </p>
                     <a href="#"> See Sample Videos </a>
                 </div>
-                <div class="col-md-6  col-xs-12"><img src="" width="445px" height="342px"></div>
+                <div class="col-md-6  col-xs-12"><img src="images/landing2.png" class="ml60" width="376px" height="325px"></div>
             </div>
             <div class="row mb45 personalMentor1">
-                <div class="col-md-6 col-xs-12"><img src="" width="445px" height="342px"></div>
+                <div class="col-md-6 col-xs-12"><img src="images/landing3.png" class="ml-60" width="445px" height="342px"></div>
                 <div class="col-md-6  col-xs-12">
                     <h3>Personal Mentor </h3>
                     <p>UPSC preparation is a long journey and it’s very important to have an experienced mentor who can guide you at every step of the preparation. UPSC PATHSHALA offers you a dedicated mentor who makes your study plan, solves your doubts, discuss current affairs, evaluates your answers and keeps you focused on your path. </p>
@@ -144,7 +145,7 @@
                     <p>UPSC preparation is a long journey and it’s very important to have an experienced mentor who can guide you at every step of the preparation. UPSC PATHSHALA offers you a dedicated mentor who makes your study plan, solves your doubts, discuss current affairs, evaluates your answers and keeps you focused on your path. </p>
                     <a href="#">Try UPSC Guru</a>
                 </div>
-                <div class="col-md-6 col-xs-12"><img src="" width="445px" height="342px"></div>
+                <div class="col-md-6 col-xs-12"><img src="images/landing3.png" width="440px" height="343px"></div>
             </div>
             
             
@@ -155,7 +156,7 @@
                     <p>Keep a track of your preparation with a regular test series of UPSC standard. Get Check-point questions after every videos. Module wise tests to check your progress regularly and Full tests consisting of GS + Current Affairs for exam like feel. </p>
                     <a href="#"> Check Courses </a>
                 </div>
-                <div class="col-md-6  col-xs-12"><img src="" width="445px" height="342px"></div>
+                <div class="col-md-6  col-xs-12"><img src="images/landing4.png" class="ml60" width="445px" height="342px"></div>
                 
             </div>
            
@@ -163,12 +164,13 @@
         </div>
     </section>
     <section  id="landingSecThree">
-        <h2>What our students have to say? </h2>
-        <div class="testimonials">
+
+        <div class="testimonials liteGreyBackground">
             <div class="container mainWidth">
-              <div id="myCarousel" class="carousel slide mt45" data-ride="carousel">
+                <h2 class="textCentre mt45 mb45">What our students have to say? </h2>
+              <div id="myCarousel" class="carousel slide mt45 mb45" data-ride="carousel">
                 <!-- Indicators -->
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators mb-30">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                   <li data-target="#myCarousel" data-slide-to="1"></li>
                   <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -180,11 +182,11 @@
                   <div class="item active">
                       <div class="row testimonialHeight">
                           <div class="col-md-3  col-xs-6 testimonialImg">
-                              <img src="" width="135px" height="135px" style="">
+                              <img src="images/avatar.png" width="135px" height="135px" style="">
                               <h4>John Doe </h4>
                               <h5>AIR 3, UPSC 2015 </h5>
                           </div>
-                          <div class="col-md-9  col-xs-12">
+                          <div class="col-md-9  col-xs-12 mt35">
                             <p><i class="fas fa-quote-left"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right landing-quote-right"></i></p>
                           </div>
                       </div>
@@ -192,11 +194,11 @@
                     <div class="item ">
                       <div class="row testimonialHeight">
                           <div class="col-md-3  col-xs-6 testimonialImg">
-                              <img src="" width="135px" height="135px">
+                              <img src="images/avatar.png" width="135px" height="135px">
                               <h4>Varun M </h4>
                               <h5>AIR 1, UPSC 2020 </h5>
                           </div>
-                          <div class="col-md-9  col-xs-12">
+                          <div class="col-md-9  col-xs-12 mt35">
                             <p><i class="fas fa-quote-left"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right landing-quote-right"></i></p>
                           </div>
                       </div>
@@ -204,11 +206,11 @@
                     <div class="item ">
                       <div class="row testimonialHeight">
                           <div class="col-md-3 col-xs-6 testimonialImg">
-                              <img src="" width="135px" height="135px">
+                              <img src="images/avatar.png" width="135px" height="135px">
                               <h4>John Doe </h4>
                               <h5>AIR 3, UPSC 2015 </h5>
                           </div>
-                          <div class="col-md-9 col-xs-12">
+                          <div class="col-md-9 col-xs-12 mt35">
                             <p><i class="fas fa-quote-left"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right landing-quote-right"></i></p>
                           </div>
                       </div>
@@ -216,11 +218,11 @@
                     <div class="item ">
                       <div class="row testimonialHeight">
                           <div class="col-md-3 col-xs-16 testimonialImg">
-                              <img src="" width="135px" height="135px">
+                              <img src="images/avatar.png" width="135px" height="135px">
                               <h4>John Doe </h4>
                               <h5>AIR 3, UPSC 2015 </h5>
                           </div>
-                          <div class="col-md-9 col-xs-12">
+                          <div class="col-md-9 col-xs-12 mt35">
                             <p><i class="fas fa-quote-left"></i>There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now.<i class="fas fa-quote-right landing-quote-right"></i></p>
                           </div>
                       </div>
@@ -229,27 +231,28 @@
               </div>
             </div>
         </div>
-        <h3 style="font-weight: bold;font-size: 16px;line-height: normal;text-align: center;
-color: #463DFF;" class=" mb45"><a href="#">See all Testimonials</a></h3>
     </section>
     <section id="landingSecFour">
         <div class="container noPadding mainWidth">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 style="font-weight: bold;font-size: 24px;line-height: 38px;">Still confused?</h2>
+            <div class="row mt45">
+                <div class="col-md-6"><img src="images/landing5.png" class="center" width="243pc" height="587px" style="margin-right: 30px;"></div>
+                <div class="col-md-6 mt150" >
+                    <h2 style="font-weight: bold;font-size: 34px;line-height: 38px;">Still confused?</h2>
                     <p style="font-size: 16px;line-height: 24px;color: rgba(51, 51, 51, 0.6);">Download our app and stay updated about everything UPSC!</p>
-                </div>
-                <div class="col-md-6 mt45">
-                    <div class="col-md-6"><img src="images/android.png" width="159px" height="48px"></div>
-                    <div class="col-md-6"><img src="images/android.png" width="159px" height="48px"></div>
+                    <div class="row mt45">
+                        <div class="col-md-5"><img src="images/android1.png" width="159px" height="48px"></div>
+                        <div class="col-md-6"><img src="images/apple1.png" width="159px" height="48px"></div>
+                    </div>
+                    
                 </div>
             </div>
+            
         </div>
     </section>
     <section id="landingSecFive">
         <div class="footer">
             <div class="container  mainWidth footerMobile">
-                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo"><img src="images/logo1.png" width="230px" height="95px;"></div>
+                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="images/logo1.png"  width="355px" height="32px;"></div>
                 <div class="row">
                     <div class="col-md-6 col-xs-11">
                         <h5>PRODUCT OF </h5>

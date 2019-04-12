@@ -13,8 +13,12 @@ function closeNav() {
 }
 
 $(document).ready(function(){
+    
   $(".videoImg, .videoCloseBtn").click(function () {
         $('#videoContent, #introDiv').toggleClass('introVideoRemove');
   }); 
     $("#myCarousel").carousel({interval: 50000});
+    
+    
+    
 });

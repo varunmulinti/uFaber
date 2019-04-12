@@ -13,19 +13,29 @@ p{
     font-family: 'Lato', sans-serif;
 }
 h1{
-    font-weight: 800;
-font-size: 32px;
-line-height: 50px;
+font-weight: 800;
+font-size: 55px;
 color: #333333;
 }
 h2{
     font-style: normal;
 font-weight: bold;
-font-size: 24px;
-line-height: normal;
+font-size: 28px;
+line-height: 44px;
 color: #333333;
-line-height: 38px;
-    
+line-height: 38px; 
+}
+h3{
+    font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+}
+.textCentre{
+    text-align: center;
+}
+.lineHeight38{
+    line-height: 38px;
 }
 .navbar-fixed-top{
     min-height: 70px;
@@ -40,17 +50,32 @@ line-height: 38px;
 .mr25{
     margin-right: 25px;
 }
+.ml150{
+    margin-left: 150px;
+}
 .mr10{
     margin-right: 10px;
 }
 .mt10{
     margin-top: 10px;
 }
+.mt20{
+    margin-top: 20px;
+}
 .mb20{
     margin-bottom: 20px;
 }
+.ml20{
+    margin-left: 20px;
+}
 .mt30{
     margin-top: 30px;
+}
+.mt35{
+    margin-top: 35px;
+}
+.mb-30{
+    margin-bottom: -30px;
 }
 .mb30{
     margin-bottom: 30px;
@@ -64,6 +89,12 @@ line-height: 38px;
 .mt60{
     margin-top: 60px !important;
 }
+.ml-60{
+    margin-left: -60px
+}
+.ml60{
+    margin-left: 60px;
+}
 .mb60{
     margin-bottom: 60px !important;
 }
@@ -72,6 +103,18 @@ line-height: 38px;
 }
 .mb90{
     margin-bottom: 90px;
+}
+.ml-120{
+    margin-left: -120px;
+}
+.ml-165{
+    margin-left: -165px;
+}
+.ml120{
+    margin-left: 120px;
+}
+.mt150{
+    margin-top: 150px;
 }
 .noPadding{
     padding: 0px !important;
@@ -115,6 +158,12 @@ padding-top: 38px !important;
 .textCenter{
     text-align: center;
 }
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
 /*-------------------------------*/
 /*     Topr nav styles        */
 /*-------------------------------*/
@@ -123,7 +172,7 @@ padding-top: 38px !important;
     padding-bottom: 0px;
 }
 .navbar-right{
-    margin-left: 290px;
+        margin-right: 45px;
 }
 /*-------------------------------*/
 /*     Sidebar nav styles        */
@@ -140,7 +189,7 @@ padding-top: 38px !important;
   position: fixed;
   z-index: 1100;
   top: 0;
-  left: 0;
+  right:0;
   background: #FFFFFF;
 box-shadow: 2px 0px 8px rgba(51, 51, 51, 0.25);
   overflow-x: hidden;
@@ -303,32 +352,13 @@ color: #FFFFFF;
             max-width: 940px;
     margin-top: 85px;
 }
-#introDiv h1{
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 50px;
-}
-.videoImg {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-}
+
 .imgA1 {
-  width:500px;
-    height:283px;
+  position: absolute;
+        top: 240px;
+    left: -20px;
 }
-.imgB1 {
-     width:477px;
-    height:200px;
-    top: 77px;
-    left:37px;
-    cursor: pointer;
-}
-.supportImg{
-    position: absolute;
-    top: 285px;
-    left: 25px;
-}
+
 .logoNav{
     float: right;
     position: fixed;
@@ -345,8 +375,7 @@ color: #FFFFFF;
 .mainIntro{ 
     font-size: 16px;
 line-height: 29px;
-    color:rgba(51, 51, 51, 0.6); 
-    margin-bottom: 35px;
+color: rgba(51, 51, 51, 0.6);
 }
 .getDemoBtn{
     font-family: Lato;
@@ -383,8 +412,7 @@ line-height: 29px;
 .facts{
     width: 100%;
 min-height: 150px;
-    background: rgba(245, 245, 245, 0.4);
-        margin-top: 200px;
+    background: #F6EFFF;
     margin-bottom: 72px;
 }
 .facts p{
@@ -396,20 +424,13 @@ min-height: 150px;
     text-align: center;
     margin-bottom: 35px
 }
-#landingSecTwo h3{
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 27px;
-    color: #000000;
+
+.landingSecTwo p{
+   font-size: 16px;
+line-height: 29px;
+color: rgba(51, 51, 51, 0.6);
 }
-#landingSecTwo p{
-    font-size: 16px;
-    line-height: 29px;
-    color: rgba(51, 51, 51, 0.6);
-}
-#landingSecTwo a{
+.landingSecTwo a{
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
@@ -417,7 +438,7 @@ min-height: 150px;
     line-height: normal;
     color: #463DFF;
 }
-#landingSecThree h2{
+.landingSecThree h2{
     text-align: center;
     margin-bottom: 35px;
 }
@@ -430,10 +451,20 @@ min-height: 150px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
+.carousel-indicators .active{
+        background-color: #463DFF;
+}
+.carousel-indicators li{
+    border-color: #463DFF;
+}
+.fa-quote-left{
+    opacity: 0.1;
+}
 .fa-quote-right{
+    opacity: 0.1;
     position: relative;
     top: 40px; 
-    left: 280px;
+    left: 112px;
     transform: rotate(180deg) scaleX(-1);
 }
 .fa-quote-left{
@@ -444,7 +475,6 @@ min-height: 150px;
     top: 155px;
     position: absolute;
     left: 53px;
-    color: white;
     font-style: italic;
     font-size: 16px;
 }
@@ -452,17 +482,15 @@ min-height: 150px;
     position: absolute;
     left: 18px;
     top: 180px;
-    color: white;
     font-style: italic;
     font-size: 16px;
     opacity: 0.8;
 }
 .item p{
-    color: white;
     font-style: italic;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 24px;
     text-align: center;
     opacity: 0.9;
     padding: 35px;
@@ -474,9 +502,6 @@ min-height: 150px;
     width: 100%;
 min-height: 324px;
     background: linear-gradient(114.27deg, #B100FF -8.03%, #463DFF 41.12%, #3E41BF 102.57%);
-}
-.testimonials ol{
-    margin: 0px 0px -40px -270px;
 }
 .footer{
     width: 100%;
@@ -594,7 +619,10 @@ line-height: 29px;
 color: rgba(0, 0, 0, 0.6);
 }
 .greyBackground{
-    background: #FBFBFB;
+    background: #F6EFFF;
+}
+.liteGreyBackground{
+    background: #FAF6FF;
 }
 .contact h3{
     font-weight: bold;
@@ -936,4 +964,63 @@ line-height: 24px;
     .mobileNoPadding{
         padding: 0px !important;
     }
+}
+.navLogo {
+    margin-top: 15px;
+}
+
+.videoImg {
+        margin-left: -255px;
+    margin-top: -85px;
+    filter: grayscale(100%);
+}
+
+.guruIntro1 {
+    font-weight: normal;
+font-size: 25px;
+line-height: 45px;
+}
+
+.guruIntro {
+    font-size: 20px;
+line-height: 36px;
+}
+
+.lineHeading h2 {
+        background-color: white;
+    margin: 0px 70px;
+}
+.lineHeading hr{
+        position: relative;
+    top: 48px;
+    z-index: -1;
+    border-color: black;
+    width: 78%;
+}
+
+.guruSectwo h2{
+    font-weight: 600;
+font-size: 32px;
+line-height: 50px;
+}
+
+.guruSectwo h3{
+    font-size: 45px;
+line-height: 67px;
+    font-weight: normal;
+}
+
+
+.guruDescription {
+    margin-left: 78px;
+    margin-top: 130px;
+}
+.guruDescription p{
+        padding-right: 45px;
+}
+
+.guruSectwo hr{
+    width: 8%;
+    border-color: black;
+    margin-top: 0px;
 }
