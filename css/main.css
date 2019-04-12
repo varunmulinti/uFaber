@@ -164,6 +164,9 @@ padding-top: 38px !important;
 .float-left{
     float: left;
 }
+.textColor{
+    color: rgba(51, 51, 51, 0.6);
+}
 /*-------------------------------*/
 /*     Topr nav styles        */
 /*-------------------------------*/
@@ -619,7 +622,7 @@ line-height: 29px;
 color: rgba(0, 0, 0, 0.6);
 }
 .greyBackground{
-    background: #F6EFFF;
+    background: #F6EFFF !important;
 }
 .liteGreyBackground{
     background: #FAF6FF;
@@ -1023,4 +1026,67 @@ line-height: 67px;
     width: 8%;
     border-color: black;
     margin-top: 0px;
+}
+
+.resultStats h4{
+    font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #7522FF;
+}
+.resultStats p{
+    font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #333333;
+}
+
+.testimonialsDiv h2{
+    font-weight: 800;
+font-size: 32px;
+line-height: 50px;
+}
+
+.testimonialSubDiv {
+    background: #FFFFFF;
+border: 0.5px solid #F8F3FF;
+box-sizing: border-box;
+box-shadow: 1px 1px 8px #E6D7ED;
+        padding: 83px 25px;
+        margin-left: 35px;
+}
+.testimonialSubDiv p{
+   font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #000000; 
+}
+
+
+.testiImg {
+        border-radius: 50%;
+    border: 3px solid #7522FF;;
+}
+
+.testimonialPerson h5{
+    margin-top: 0px;
+    font-size: 14px;
+line-height: 21px;
+color: rgba(51, 51, 51, 0.8);
+}
+.testimonialPerson p{
+    font-size: 14px;
+line-height: 21px;
+color: rgba(51, 51, 51, 0.6);
+}
+
+.testimonialVideo {
+ margin-left: 20px;   
+}
+
+.fullWidthTestimonial {
+    width: 88%;
 }

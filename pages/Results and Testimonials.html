@@ -33,16 +33,17 @@
     
     <nav class="navbar navbar-fixed-top">
         <div class="container mainWidth noPadding">
-            <div class="navbar-header">
+            <a href="../index.html"><img class="navLogo" src="../images/logo.png" width="250px" height="36px"></a>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><div class="navbar-header">
                 <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
                     <h6 class="hamb-menu-top">MENU</h6>
                     <span class="hamb-top"></span>
                     <span class="hamb-middle"></span>
                     <span class="hamb-bottom"></span>
                 </button>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html"><img src="../images/logo.png" width="118px" height="52px"></a></li>
+            </div></li>
             </ul>
         </div>
     </nav>
@@ -75,151 +76,136 @@
     <!-- Side Navigation -->
     
     <!-- Page Content -->
-    <section>
-        <div class="container landingSecOne resultSecOne">
-            <h1>Results and Testimonials </h1>
-            <p class="mb30">24x7 available Guru suggesting and guiding you to achieve the best results.</p>
-            <div id="resultsCarousel" class="carousel slide" data-ride="carousel" style="max-height: 416px">
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner resultInnerCarousel">
-                <div class="item active">
-                  <img src="../images/IMG_240735.jpg">
-                </div>
-
-                <div class="item">
-                  <img src="">
-                </div>
-
-                <div class="item">
-                  <img src="">
-                </div>
-              </div>
-
-              <!-- Left and right controls -->
-              <a class="left carousel-control resultCarouselControls" href="#resultsCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control resultCarouselControls" href="#resultsCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="facts mt80">
-            <div class="container mainWidth">
-                <div class="row mt45">
-                    <div class="col-md-4 col-xs-4">
-                        <div class="col-md-4 col-xs-12"><img src="../images/student.png" width="55px" height="67px"></div>
-                        <div class="col-md-8 col-xs-12 noPadding"><p><strong>5000+</strong> <span>Students</span></p></div>
-                    
+     <section>
+        <div class="container mainWidth mt80">
+            <div id="introDiv" class="row mt45 mb30">
+                    <div class="col-md-7 col-xs-12 mt45">
+                       <h1>Results & Testimonials</h1>
+                        <p class="guruIntro mb45 textColor">Our success is translated into the results our students give us.</p> 
+                        <div class="row mb45 resultStats ml-60">
+                            <div class="col-md-4 col-xs-6">
+                                <h4>5000+</h4>
+                                <p>Students</p>
+                            </div>
+                            <div class="col-md-4 col-xs-6">
+                               <h4>2X</h4>
+                                <p>Success Rate</p>
+                            </div>
+                            <div class="col-md-4 col-xs-6">
+                                <h4>80+</h4>
+                                <p>Mentors</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-xs-4">
-                        <div class="col-md-4 col-xs-12"><img src="../images/success.png" width="55px" height="67px"></div>
-                        <div class="col-md-8 col-xs-12 noPadding"><p><strong>2X </strong><span>Success Rate</span></p></div>
+                    <div class="col-md-4 col-xs-12 guruImage">
+                        <img src="../images/result1.png" class="" width="560px" height="496px">
                         
                     </div>
-                    <div class="col-md-4 col-xs-4">
-                        <div class="col-md-4 col-xs-12"><img src="../images/mentor.png" width="55px" height="67px"></div>
-                        <div class="col-md-8 col-xs-12 noPadding"><p><strong>80+ </strong><span>Mentors</span></p></div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section  id="landingSecThree">
-        <div class="testimonials resultChamp">
-            <div class="container mainWidth">
-                <h2 class="mt45 colorWhite"> Meet our champions</h2>
-              <div id="myCarousel" class="carousel slide mt45 mb45" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                  <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner testimonialsCarousel" role="listbox">
-                  <div class="item active">
-                      <div class="row">
-                          <div class="col-md-3  col-xs-12 testimonialImg">
-                              <img src="" width="135px" height="135px" style="">
-                              <h4>John Doe </h4>
-                              <h5>AIR 3, UPSC 2015 </h5>
-                          </div>
-                          <div class="col-md-9  col-xs-12">
-                            <p><i class="fas fa-quote-left"></i>I've completed my course with UPSC Pathshala and I'm ready to attempt the 2018 UPSC exam. There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now. <i class="fas fa-quote-right resultQuoteRight"></i></p>
-                          </div>
-                      </div>
-                  </div>
-                    <div class="item ">
-                      <div class="row">
-                          <div class="col-md-3  col-xs-12 testimonialImg">
-                              <img src="" width="135px" height="135px">
-                              <h4>Varun M </h4>
-                              <h5>AIR 1, UPSC 2020 </h5>
-                          </div>
-                          <div class="col-md-9  col-xs-12">
-                            <p><i class="fas fa-quote-left"></i>I've completed my course with UPSC Pathshala and I'm ready to attempt the 2018 UPSC exam. There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now. <i class="fas fa-quote-right resultQuoteRight"></i></p>
-                          </div>
-                      </div>
-                  </div>
-                    <div class="item ">
-                      <div class="row">
-                          <div class="col-md-3 col-xs-12 testimonialImg">
-                              <img src="" width="135px" height="135px">
-                              <h4>John Doe </h4>
-                              <h5>AIR 3, UPSC 2015 </h5>
-                          </div>
-                          <div class="col-md-9 col-xs-12">
-                            <p><i class="fas fa-quote-left"></i>I've completed my course with UPSC Pathshala and I'm ready to attempt the 2018 UPSC exam. There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now. <i class="fas fa-quote-right resultQuoteRight"></i></p>
-                          </div>
-                      </div>
-                  </div>
-                    <div class="item ">
-                      <div class="row">
-                          <div class="col-md-3 col-xs-12 testimonialImg">
-                              <img src="" width="135px" height="135px">
-                              <h4>John Doe </h4>
-                              <h5>AIR 3, UPSC 2015 </h5>
-                          </div>
-                          <div class="col-md-9 col-xs-12">
-                            <p><i class="fas fa-quote-left"></i>I've completed my course with UPSC Pathshala and I'm ready to attempt the 2018 UPSC exam. There was never too much burden of studies, considering the study plan chalked out for me by my mentor. She has guided me really well till now. <i class="fas fa-quote-right resultQuoteRight"></i></p>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-              </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="container mainWidth resultTestimonial mt45">
-            <h2 class="mb90">What our students have to say? </h2>
-            <div class="row mb45 resultRestimonialGroup">
-                <div class="col-md-4 col-xs-12 resultTestimonialBox mr25">
-                    <div class="resultTestimonialImage"><img src="../images/avatar.png" width="112px" height="112px"></div>
-                    <h3>John Doe </h3>
-                    <p>Get a dedicated mentor to guide you regularly and resolve your doubts. He is a friend, philosopher and guide in your journey of UPSC preparation.</p>
+        <div class="container mainWidth testimonialsDiv">
+            <h2 class="mt45 mb45 textCentre">Testimonials</h2>
+            <div class="row">
+                <div class="col-md-5 col-xs-12 testimonialSubDiv mb45">
+                    <p>Nonummy, lectus alias consectetur ultrices, nascetur magnam quisque ipsam vero, reprehenderit? Mus elit nesciunt itaque illo, felis nesciunt risus dui.</p>
+                    <div class="row testimonialPerson mt20">
+                        <div class="col-md-2 col-xs-12"><img src="../images/avatar.png" class="testiImg" width="50px" height="50px"></div>
+                        <div class="col-md-6 col-xs-12">
+                            <h5>Varun Mulinti</h5>
+                            <p>(IAS, Class 2014 Batch)</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 col-xs-12 resultTestimonialBox mr25">
-                    <div class="resultTestimonialImage"><img src="../images/avatar.png" width="112px" height="112px"></div>
-                    <h3>John Doe </h3>
-                    <p>Get a dedicated mentor to guide you regularly and resolve your doubts. He is a friend, philosopher and guide in your journey of UPSC preparation.</p>
-                </div>
-                <div class="col-md-4 col-xs-12 resultTestimonialBox">
-                    <div class="resultTestimonialImage"><img src="../images/avatar.png" width="112px" height="112px"></div>
-                    <h3>John Doe </h3>
-                    <p>Get a dedicated mentor to guide you regularly and resolve your doubts. He is a friend, philosopher and guide in your journey of UPSC preparation.</p>
+                <div class="col-md-5 col-xs-12 testimonialSubDiv mb45">
+                    <p>Nonummy, lectus alias consectetur ultrices, nascetur magnam quisque ipsam vero, reprehenderit? Mus elit nesciunt itaque illo, felis nesciunt risus dui.</p>
+                    <div class="row testimonialPerson mt20">
+                        <div class="col-md-2 col-xs-12"><img src="../images/avatar.png" class="testiImg" width="50px" height="50px"></div>
+                        <div class="col-md-6 col-xs-12">
+                            <h5>Varun Mulinti</h5>
+                            <p>(IAS, Class 2014 Batch)</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <h3 style="font-weight: bold;font-size: 16px;line-height: normal;text-align: center;
-color: #463DFF;"><a href="#">Look at all the Testimonials</a></h3>
+            <div class="row">
+                <div class="col-md-12 mb45">
+                    <iframe src="https://player.vimeo.com/video/321941292" class="testimonialVideo" width="90%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-xs-12 testimonialSubDiv mb45 greyBackground">
+                    <p>Nonummy, lectus alias consectetur ultrices, nascetur magnam quisque ipsam vero, reprehenderit? Mus elit nesciunt itaque illo, felis nesciunt risus dui.</p>
+                    <div class="row testimonialPerson mt20">
+                        <div class="col-md-2 col-xs-12"><img src="../images/avatar.png" class="testiImg" width="50px" height="50px"></div>
+                        <div class="col-md-6 col-xs-12">
+                            <h5>Varun Mulinti</h5>
+                            <p>(IAS, Class 2014 Batch)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-12 testimonialSubDiv">
+                    <p>Nonummy, lectus alias consectetur ultrices, nascetur magnam quisque ipsam vero, reprehenderit? Mus elit nesciunt itaque illo, felis nesciunt risus dui.</p>
+                    <div class="row testimonialPerson mt20">
+                        <div class="col-md-2 col-xs-12"><img src="../images/avatar.png" class="testiImg" width="50px" height="50px"></div>
+                        <div class="col-md-6 col-xs-12">
+                            <h5>Varun Mulinti</h5>
+                            <p>(IAS, Class 2014 Batch)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-xs-12 testimonialSubDiv mb45">
+                    <p>Nonummy, lectus alias consectetur ultrices, nascetur magnam quisque ipsam vero, reprehenderit? Mus elit nesciunt itaque illo, felis nesciunt risus dui.</p>
+                    <div class="row testimonialPerson mt20">
+                        <div class="col-md-2 col-xs-12"><img src="../images/avatar.png" class="testiImg" width="50px" height="50px"></div>
+                        <div class="col-md-6 col-xs-12">
+                            <h5>Varun Mulinti</h5>
+                            <p>(IAS, Class 2014 Batch)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-12  mb45">
+                    <iframe src="https://player.vimeo.com/video/321941292" class="testimonialVideo" width="110%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-xs-12 testimonialSubDiv mb45 fullWidthTestimonial">
+                    <p>Nonummy, lectus alias consectetur ultrices, nascetur magnam quisque ipsam vero, reprehenderit? Mus elit nesciunt itaque illo, felis nesciunt risus dui.</p>
+                    <div class="row testimonialPerson mt20">
+                        <div class="col-md-2 col-xs-12"><img src="../images/avatar.png" class="testiImg" width="50px" height="50px"></div>
+                        <div class="col-md-6 col-xs-12">
+                            <h5>Varun Mulinti</h5>
+                            <p>(IAS, Class 2014 Batch)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-xs-12 testimonialSubDiv mb45 ">
+                    <p>Nonummy, lectus alias consectetur ultrices, nascetur magnam quisque ipsam vero, reprehenderit? Mus elit nesciunt itaque illo, felis nesciunt risus dui.</p>
+                    <div class="row testimonialPerson mt20">
+                        <div class="col-md-2 col-xs-12"><img src="../images/avatar.png" class="testiImg" width="50px" height="50px"></div>
+                        <div class="col-md-6 col-xs-12">
+                            <h5>Varun Mulinti</h5>
+                            <p>(IAS, Class 2014 Batch)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-12 testimonialSubDiv greyBackground">
+                    <p>Nonummy, lectus alias consectetur ultrices, nascetur magnam quisque ipsam vero, reprehenderit? Mus elit nesciunt itaque illo, felis nesciunt risus dui.</p>
+                    <div class="row testimonialPerson mt20">
+                        <div class="col-md-2 col-xs-12"><img src="../images/avatar.png" class="testiImg" width="50px" height="50px"></div>
+                        <div class="col-md-6 col-xs-12">
+                            <h5>Varun Mulinti</h5>
+                            <p>(IAS, Class 2014 Batch)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section id="landingSecFour" class=" greyBackground mt45">
@@ -239,7 +225,7 @@ color: #463DFF;"><a href="#">Look at all the Testimonials</a></h3>
     <section id="landingSecFive">
         <div class="footer">
             <div class="container  mainWidth footerMobile">
-                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo"><img src="../images/logo1.png" width="230px" height="95px;"></div>
+                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="../images/logo1.png" width="355px" height="32px;"></div>
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
                         <h5>PRODUCT OF </h5>
