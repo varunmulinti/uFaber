@@ -1054,8 +1054,7 @@ line-height: 50px;
 border: 0.5px solid #F8F3FF;
 box-sizing: border-box;
 box-shadow: 1px 1px 8px #E6D7ED;
-        padding: 83px 25px;
-        margin-left: 35px;
+        padding: 99px 25px;
 }
 .testimonialSubDiv p{
    font-style: italic;
@@ -1083,9 +1082,7 @@ line-height: 21px;
 color: rgba(51, 51, 51, 0.6);
 }
 
-.testimonialVideo {
- margin-left: 20px;   
-}
+
 
 .fullWidthTestimonial {
     width: 88%;
