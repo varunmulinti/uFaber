@@ -50,8 +50,8 @@ color: #000000;
 .mr25{
     margin-right: 25px;
 }
-.ml150{
-    margin-left: 150px;
+.ml170{
+    margin-left: 170px;
 }
 .mr10{
     margin-right: 10px;
@@ -61,6 +61,9 @@ color: #000000;
 }
 .mt20{
     margin-top: 20px;
+}
+.mb25{
+    margin-bottom: 25px;
 }
 .mb20{
     margin-bottom: 20px;
@@ -86,6 +89,9 @@ color: #000000;
 .mb45{
     margin-bottom: 45px !important;
 }
+.mt50{
+    margin-top: 50px;
+}
 .mt60{
     margin-top: 60px !important;
 }
@@ -101,6 +107,9 @@ color: #000000;
 .mt80{
     margin-top: 80px !important;
 }
+.mt90{
+    margin-top: 90px;
+}
 .mb90{
     margin-bottom: 90px;
 }
@@ -115,6 +124,9 @@ color: #000000;
 }
 .mt150{
     margin-top: 150px;
+}
+.mt160{
+    margin-top: 160px;
 }
 .noPadding{
     padding: 0px !important;
@@ -414,7 +426,7 @@ color: rgba(51, 51, 51, 0.6);
 }
 .facts{
     width: 100%;
-min-height: 150px;
+min-height: 170px;
     background: #F6EFFF;
     margin-bottom: 72px;
 }
@@ -544,13 +556,8 @@ min-height: 324px;
 /*           FAQ'S        */
 /*-------------------------------*/
 
-.questions{
-    min-height: 338px;
-    width: 100%;
-    background: linear-gradient(119.21deg, #B100FF -8.03%, #463DFF 41.12%, #3E41BF 102.57%);
-}
 .questions h2{
-    color: #FFFFFF;
+    color: #7522FF;
     margin-top: 40px;
     text-align: center;
 }
@@ -560,23 +567,19 @@ min-height: 324px;
 .questionsMain{
     border-radius: 4px;
     background-color: white;
-    width: 212px;
-    height: 168px;
     text-align: center;
     font-weight: bold;
 font-size: 16px;
 line-height: 24px;
-        margin: 40px 11px;
-    padding: 15px 0px;
-}
-.questionsHead{
-   background: linear-gradient(103.4deg, #B100FF -5.13%, #463DFF 41.35%, #3E41BF 105.57%);
+        margin: 40px 3px;
+    padding: 28px 0px;
+    border: 0.5px solid #EADDFF;
 }
 .questionsHead h5{
     font-weight: bold;
     font-size: 24px;
     line-height: 38px;
-    color: #FFFFFF;
+    color: #7522FF;
 }
 .questionsHead img{
     margin-top: -10px;
@@ -1086,4 +1089,41 @@ color: rgba(51, 51, 51, 0.6);
 
 .fullWidthTestimonial {
     width: 88%;
+}
+
+.videoPageBackground {
+    background: url("../images/video2.png"); 
+    background-size: 97% 100%;
+     background-repeat: no-repeat;
+    margin-top: -66px;
+    padding-bottom: 150px;
+}
+
+.videos {
+    margin: 20px 180px;
+}
+
+.videoMenubtn {
+border-radius: 2px !important;
+        padding: 1px 11px !important;
+    font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: rgba(51, 51, 51, 0.8);
+}
+.videos .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+       background-color: #7522FF !important;
+}
+
+.videosTabContent {
+        margin-left: 20px;
+    margin-right: 208px;
+}
+
+.pb60 {
+    padding-bottom: 60px
+}
+
+.pt45 {
+    padding-top: 45px;
 }

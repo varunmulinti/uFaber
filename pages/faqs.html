@@ -33,16 +33,17 @@
     
     <nav class="navbar navbar-fixed-top">
         <div class="container mainWidth noPadding">
-            <div class="navbar-header">
+            <a href="../index.html"><img class="navLogo" src="../images/logo.png" width="270px" height="34px"></a>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><div class="navbar-header">
                 <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
                     <h6 class="hamb-menu-top">MENU</h6>
                     <span class="hamb-top"></span>
                     <span class="hamb-middle"></span>
                     <span class="hamb-bottom"></span>
                 </button>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="../index.html"><img src="../images/logo.png" width="118px" height="52px"></a></li>
+            </div></li>
             </ul>
         </div>
     </nav>
@@ -57,8 +58,8 @@
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <hr>
           <a href="../index.html">Home</a>
-          <a href="#">Courses<span class="badge badge-secondary">New</span></a>
-          <a href="#">Videos<span class="badge badge-secondary">New</span></a>
+          <a href="../pages/Courses.html">Courses<span class="badge badge-secondary">New</span></a>
+          <a href="../pages/videos.html">Videos<span class="badge badge-secondary">New</span></a>
           <a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a>
           <a href="../pages/UPSC%20guru.html">UPSC Guru</a>
           <a href="../pages/scholarship.html">Scholarships</a>
@@ -77,14 +78,14 @@
     <!-- Page Content -->
     <section>
         <div class="container faqSecOne mainWidth mt80">
-            <div id="introDiv" class="row mt45">
-                    <div class="col-md-6 col-xs-12 introMobile">
-                       <h1 class="mt45"> Frequently Asked Questions</h1>
-                        <p class="mainIntro">Everthing you want to know about how UPSC Pathshala ensures your success.</p> 
+            <div class="row mt45 mb45">
+                    <div class="col-md-6 col-xs-12 introMobile mt60">
+                       <h1 class="mt45"> FAQs</h1>
+                        <p class="guruIntro textColor">Frequently asked questions about everthing you want to know about how UPSC Pathshala ensures your success.</p> 
 
                     </div>
                     <div class="col-md-6 col-xs-12 ">
-                        <img src="../images/Frame%204.png" class="" width="450px" height="400px">
+                        <img src="../images/faq1.png" class="" width="536px" height="474px">
                         
                     </div>
             </div>
@@ -95,21 +96,29 @@
             <div class="container mainWidth">
                 <h2>Have questions about?</h2>
                 <div class="row">
-                    <div class="col-md-3 col-xs-6 questionsMain">
-                        <img src="../images/mentor.png" width="100px" height="100px">
-                        <p>Mentors & Courses</p>
+                    <div class="col-md-3 col-xs-6 ">
+                        <div class="questionsMain">
+                            <img src="../images/faq2.png" width="84px" height="76px">
+                            <p>Mentors & Courses</p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 questionsMain">
-                        <img src="../images/questions1.png" width="100px" height="100px">
-                        <p>UPSC Guru </p>
+                    <div class="col-md-3 col-xs-6 ">
+                        <div class="questionsMain">
+                            <img src="../images/faq3.png" width="84px" height="76px">
+                            <p>UPSC Guru </p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 questionsMain">
-                        <img src="../images/questions2.png" width="100px" height="100px">
-                        <p> Scholarships </p>
+                    <div class="col-md-3 col-xs-6 ">
+                        <div class="questionsMain">
+                            <img src="../images/faq4.png" width="84px" height="76px">
+                            <p> Scholarships </p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 questionsMain">
-                        <img src="../images/questions3.png" width="100px" height="100px">
-                        <p> Miscellaneous </p>
+                    <div class="col-md-3 col-xs-6 quesionsMain">
+                        <div class="questionsMain">
+                            <img src="../images/faq5.png" width="84px" height="76px">
+                            <p> Miscellaneous </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -120,7 +129,7 @@
         <div class="container mainWidth mobilePanel">
             <div class="panel-group">
                 <div class="panel panel-default outerPanel mt60 mb60">
-                  <div class="panel-heading questionsHead"><img src="../images/mentor%20white.png" width="34px" height="40px" class="inline"> <h5 class="inline">Mentors & Courses </h5></div>
+                  <div class="panel-heading questionsHead"><img src="../images/faq2.png" width="34px" height="40px" class="inline"> <h5 class="inline">Mentors & Courses </h5></div>
                   <div class="panel-body questionsPanelDes">
                       <div class="panel-group" id="accordion">
                           <div class="panel">
@@ -180,7 +189,7 @@
                   </div>
                 </div>
                 <div class="panel panel-default outerPanel mb60">
-                  <div class="panel-heading questionsHead"><img src="../images/questions1-white.png" width="34px" height="40px" class="inline"> <h5 class="inline">UPSC Guru </h5></div>
+                  <div class="panel-heading questionsHead "><img src="../images/faq3.png" width="34px" height="40px" class="inline"> <h5 class="inline">UPSC Guru </h5></div>
                   <div class="panel-body questionsPanelDes">
                       <div class="panel-group" id="accordion1">
                           <div class="panel">
@@ -240,7 +249,7 @@
                   </div>
                 </div>
                 <div class="panel panel-default outerPanel mb60">
-                  <div class="panel-heading questionsHead"><img src="../images/questions2-white.png" width="34px" height="40px" class="inline"> <h5 class="inline">Scholarships</h5></div>
+                  <div class="panel-heading questionsHead"><img src="../images/faq4.png" width="34px" height="40px" class="inline"> <h5 class="inline">Scholarships</h5></div>
                   <div class="panel-body questionsPanelDes">
                       <div class="panel-group" id="accordion2">
                           <div class="panel">
@@ -300,7 +309,7 @@
                   </div>
                 </div>
                 <div class="outerPanel panel panel-default mb60">
-                  <div class="panel-heading questionsHead"><img src="../images/questions3-white.png" width="34px" height="40px" class="inline"> <h5 class="inline">Miscellaneous</h5></div>
+                  <div class="panel-heading questionsHead"><img src="../images/faq5.png" width="34px" height="40px" class="inline"> <h5 class="inline">Miscellaneous</h5></div>
                   <div class="panel-body questionsPanelDes">
                       <div class="panel-group" id="accordion3">
                           <div class="panel">
@@ -366,14 +375,14 @@
     <section>
         <div class="greyBackground ">
             <div class="container mainWidth pt38 pb38">
-                <div class="col-md-6 col-xs-12">
+                <div class="col-md-7 col-xs-12">
                     <h2>Still having problems?</h2>
-                <p>You can contact us or write a mail to us and we will get in touch with you.</p>
+                <p class="textColor" style="font-size: 16px;">You can contact us or write a mail to us and we will get in touch with you.</p>
                 </div>
-                <div class="col-md-2 col-xs-12"></div>
+                <div class="col-md-1 col-xs-12"></div>
                 <div class="col-md-4 col-xs-12">
-                    <p class="mt45"><i class="fas fa-envelope" style="color: #463DFF;    margin-right: 10px;"></i>contact@upscpathshala.com</p>
-                    <p class=""><i class="fas fa-phone" style="color: #463DFF;transform: rotate(3600deg) scaleX(-1);    margin-right: 10px;"></i>+91 8080-555-766</p>
+                    <p class="mt45 textColor"><i class="fas fa-envelope" style="color: #463DFF;    margin-right: 10px;"></i>contact@upscpathshala.com</p>
+                    <p class="textColor"><i class="fas fa-phone" style="color: #463DFF;transform: rotate(3600deg) scaleX(-1);    margin-right: 10px;"></i>+91 8080-555-766</p>
                 </div>
                 
             </div>
@@ -382,7 +391,7 @@
     <section id="landingSecFive">
         <div class="footer">
             <div class="container mainWidth footerMobile">
-                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo"><img src="../images/logo1.png" width="230px" height="95px;"></div>
+                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="../images/logo1.png" width="355px" height="32px;"></div>
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
                         <h5>PRODUCT OF </h5>
