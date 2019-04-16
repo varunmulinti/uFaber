@@ -31,11 +31,11 @@
 <body>
     <!-- Top Navigation -->
     
-    <nav class="navbar navbar-fixed-top">
-        <div class="container mainWidth noPadding">
-            <a href="../index.html"><img class="navLogo" src="../images/logo.png" width="270px" height="34px"></a>
+   <nav class="navbar navbar-fixed-top">
+        <div class="container mainWidth">
+            <a href="index.html"><img class="navLogo" src="../images/logo.png" width="270px" height="34px"></a>
             
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right mobileFloatRight">
               <li><div class="navbar-header">
                 <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
                     <h6 class="hamb-menu-top">MENU</h6>
@@ -79,12 +79,16 @@
     <section>
         <div class="container faqSecOne mainWidth mt80">
             <div class="row mt45 mb45">
+                <div class="col-md-6 col-xs-12 mobileShow webHide">
+                        <img src="../images/faq1.png" class="" width="536px" height="474px">
+                        
+                    </div>
                     <div class="col-md-6 col-xs-12 introMobile mt60">
-                       <h1 class="mt45"> FAQs</h1>
-                        <p class="guruIntro textColor">Frequently asked questions about everthing you want to know about how UPSC Pathshala ensures your success.</p> 
+                       <h1 class="mt45 guruMobileh1"> FAQs</h1>
+                        <p class="guruIntro textColor fs34">Everthing you want to know about how UPSC Pathshala ensures your success.</p> 
 
                     </div>
-                    <div class="col-md-6 col-xs-12 ">
+                    <div class="col-md-6 col-xs-12 mobileHide">
                         <img src="../images/faq1.png" class="" width="536px" height="474px">
                         
                     </div>
@@ -96,25 +100,25 @@
             <div class="container mainWidth">
                 <h2>Have questions about?</h2>
                 <div class="row">
-                    <div class="col-md-3 col-xs-6 ">
+                    <div class="col-md-3 col-xs-6 mobilePaddingNone">
                         <div class="questionsMain">
                             <img src="../images/faq2.png" width="84px" height="76px">
                             <p>Mentors & Courses</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 ">
+                    <div class="col-md-3 col-xs-6 mobilePaddingNone">
                         <div class="questionsMain">
                             <img src="../images/faq3.png" width="84px" height="76px">
                             <p>UPSC Guru </p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 ">
+                    <div class="col-md-3 col-xs-6 mobilePaddingNone">
                         <div class="questionsMain">
                             <img src="../images/faq4.png" width="84px" height="76px">
                             <p> Scholarships </p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 quesionsMain">
+                    <div class="col-md-3 col-xs-6 quesionsMain mobilePaddingNone">
                         <div class="questionsMain">
                             <img src="../images/faq5.png" width="84px" height="76px">
                             <p> Miscellaneous </p>
@@ -390,8 +394,8 @@
     </section>
     <section id="landingSecFive">
         <div class="footer">
-            <div class="container mainWidth footerMobile">
-                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="../images/logo1.png" width="355px" height="32px;"></div>
+            <div class="container  mainWidth footerMobile">
+                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="../images/logo1.png"  width="355px" height="32px;"></div>
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
                         <h5>PRODUCT OF </h5>
@@ -409,14 +413,20 @@
                         
                     </div>
                     <div class="col-md-3 col-xs-12">
-                        <h5> SITEMAP </h5>
-                        <p><a href="#">All courses</a></p>
-                        <p><a href="#">Sample Videos</a></p>
-                        <p><a href="../pages/UPSC%20guru.html">UPSC Guru</a></p>
-                        <p><a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a> </p><br>
-                        <h5> INFORMATION  </h5>
+                        <div class="col-md-12 col-xs-6 noPadding">
+                            <h5> SITEMAP </h5>
+                            <p><a href="../pages/Courses.html">All courses</a></p>
+                            <p><a href="../pages/videos.html">Sample Videos</a></p>
+                            <p><a href="../pages/UPSC%20guru.html">UPSC Guru</a></p>
+                            <p><a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a> </p><br>
+                        </div>
+                        <div class="col-md-12 col-xs-6 noPadding">
+                            <h5> INFORMATION  </h5>
                         <p><a href="../pages/aboutus.html">About Us </a></p>
                         <p><a href="#">Contact Us</a>  </p>
+                        </div>
+                        
+                        
                     
                     </div>
                     <div class="col-md-3 col-xs-12">
@@ -430,14 +440,14 @@
                     
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt15">
                     <div class="col-md-6 col-xs-12 footerDownload">
                         <p>Don’t waste time in browsing several apps! </p>
                         <p>The only app that you need for UPSC preparation is here!</p>
                     </div>
                     <div class="col-md-6 col-xs-12 appstoreMobile">
-                        <div class="col-md-6 col-xs-6"><img src="../images/android.png" width="189px" height="57px"></div>
-                        <div class="col-md-6 col-xs-6"><img src="../images/apple.png" width="189px" height="57px"></div>
+                        <div class="col-md-6 col-xs-6"><img src="../images/android1.png" class="mobileStoreImg" width="189px" height="57px"></div>
+                        <div class="col-md-6 col-xs-6"><img src="../images/apple.png" class="mobileStoreImg" width="189px" height="57px"></div>
                     </div>
                 </div>
             </div>
