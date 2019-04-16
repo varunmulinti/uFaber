@@ -1150,8 +1150,8 @@ color: rgba(51, 51, 51, 0.8);
     .imgA1{
         width: 77px;
         height: 76px;
-            top: 117px;
-    left: 145px;
+        top: 117px;
+        left: 145px;
     }
     .mianMobileIntro{
         display: none;
@@ -1164,6 +1164,9 @@ color: rgba(51, 51, 51, 0.8);
     }
     .mobileMt15{
         margin-top: 15px;
+    }
+    .mobileMt25{
+        margin-top: 25px;
     }
     h1{
         font-weight: 800 !important;
@@ -1298,8 +1301,12 @@ color: rgba(51, 51, 51, 0.8);
     .courseHelpText{
         font-size: 10px;
     }
-    
-    
+    .scholarshipSecOne{
+        margin-top: 45px;
+    }
+    .scholarshipSecOne img{
+        margin-left: 50px;
+    }
     
     
     
@@ -1370,11 +1377,9 @@ line-height: 24px;
     .questionsPanelDes{
         margin: 0px;
     }
-    .scholarshipSecOne img{
-        margin-top: -420px
-    }
     .scholarshipSecOne button{
-            margin: 240px 0px 0px 50px;
+            margin-bottom: 30px;
+        margin-top: 0px;
     }
     .resultChamp{
         height: 655px;

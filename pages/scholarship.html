@@ -32,10 +32,10 @@
     <!-- Top Navigation -->
     
     <nav class="navbar navbar-fixed-top">
-        <div class="container mainWidth noPadding">
-            <a href="../index.html"><img class="navLogo" src="../images/logo.png" width="270px" height="34px"></a>
+        <div class="container mainWidth">
+            <a href="index.html"><img class="navLogo" src="../images/logo.png" width="270px" height="34px"></a>
             
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right mobileFloatRight">
               <li><div class="navbar-header">
                 <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
                     <h6 class="hamb-menu-top">MENU</h6>
@@ -76,15 +76,18 @@
     <!-- Side Navigation -->
     
     <!-- Page Content -->
-    <section class="scholarshipSecOne">
-        <div class="container mainWidth">
+    <section>
+        <div class="container scholarshipSecOne mainWidth">
             <div id="introDiv" class="row mt45">
-                    <div class="col-md-6 col-xs-12 introMobile mt150 textColor">
-                       <h1> Scholarships</h1>
-                        <p class="guruIntro mb45 mt30">UPSC Pathshala offers scholarships to bright and deserving candidates based on their academic record and financial status.</p> 
-                        <button type="button" class="btn btn-default getDemoBtn">Apply</button>
+                <div class="col-md-6 col-xs-12 mobileShow webHide">
+                        <img src="../images/scholarship1.png"  width="236px" height="286px">
                     </div>
-                    <div class="col-md-6 col-xs-12 ">
+                    <div class="col-md-6 col-xs-12 mobileMarginNone mt150 textColor">
+                       <h1 class="mobileMt25 guruMobileh1"> Scholarships</h1>
+                        <p class="guruIntro mb45 mt30 guruMobileText">UPSC Pathshala offers scholarships to bright and deserving candidates based on their academic record and financial status.</p> 
+                        <button type="button" class="btn btn-default getDemoBtn scholarshipBtn">Apply</button>
+                    </div>
+                    <div class="col-md-6 col-xs-12 mobileHide">
                         <img src="../images/scholarship1.png" class="" width="509px" height="615px">
                     </div>
             </div>
@@ -115,62 +118,52 @@
             </div>
         </div>
     </section>
-    
-    <section class="scholarshipSecFour">
+    <section class="scholarshipSecFour mt45">
         <div class="container mainWidth">
-            <h2 class="mb30">Any more questions? </h2>
+            <h2 class="mb30"> Here are some frequently answered questions</h2>
             <div class="panel-group" id="accordion">
               <div class="panel">
                 <div class="panel-heading">
                   <h4 class="panel-title inline">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="questionsPlus">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="questionsPlus mobileText">
                     How much time does it take to register and start for this course? </a>
                   </h4>
                 </div>
                 <div id="collapse1" class="panel-collapse collapse">
-                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat.</div>
+                  <div class="panel-body "> <p class="questionsDescription mobileText">Velit cras vivamus aut lacus! Ut, feugiat commodi, voluptatem quia minus! Amet per iaculis litora temporibus tempora repudiandae! Repellat nec vulputate sint pretium felis porta, laoreet anim. Magna quis eum.</p></div>
                 </div>
               </div>
               <div class="panel">
                 <div class="panel-heading">
                   <h4 class="panel-title inline">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="questionsPlus">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="questionsPlus mobileText">
                     Are there any pre requisites for this course? </a>
                   </h4>
                 </div>
                 <div id="collapse2" class="panel-collapse collapse">
-                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat.</div>
+                  <div class="panel-body"> <p class="questionsDescription mobileText">Velit cras vivamus aut lacus! Ut, feugiat commodi, voluptatem quia minus! Amet per iaculis litora temporibus tempora repudiandae! Repellat nec vulputate sint pretium felis porta, laoreet anim. Magna quis eum.</p></div>
                 </div>
               </div>
               <div class="panel">
                 <div class="panel-heading">
                   <h4 class="panel-title inline">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="questionsPlus">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="questionsPlus mobileText">
                     How much time does it take to register and start for this course?</a>
                   </h4>
                 </div>
                 <div id="collapse3" class="panel-collapse collapse">
-                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat.</div>
+                  <div class="panel-body "> <p class="questionsDescription mobileText">Velit cras vivamus aut lacus! Ut, feugiat commodi, voluptatem quia minus! Amet per iaculis litora temporibus tempora repudiandae! Repellat nec vulputate sint pretium felis porta, laoreet anim. Magna quis eum.</p></div>
                 </div>
               </div>
               <div class="panel">
                 <div class="panel-heading">
                   <h4 class="panel-title inline">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="questionsPlus">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="questionsPlus mobileText">
                      How much time does it take to register and start for this course? </a>
                   </h4>
                 </div>
                 <div id="collapse4" class="panel-collapse collapse in">
-                  <div class="panel-body "> <p class="questionsDescription">Velit cras vivamus aut lacus! Ut, feugiat commodi, voluptatem quia minus! Amet per iaculis litora temporibus tempora repudiandae! Repellat nec vulputate sint pretium felis porta, laoreet anim. Magna quis eum.</p></div>
+                  <div class="panel-body "> <p class="questionsDescription mobileText">Velit cras vivamus aut lacus! Ut, feugiat commodi, voluptatem quia minus! Amet per iaculis litora temporibus tempora repudiandae! Repellat nec vulputate sint pretium felis porta, laoreet anim. Magna quis eum.</p></div>
                 </div>
               </div>
             </div>
@@ -180,8 +173,8 @@ color: #463DFF;" class=" mb45"><a href="../pages/faqs.html">See all FAQs</a></h3
     </section>
     <section id="landingSecFive">
         <div class="footer">
-            <div class="container mainWidth footerMobile">
-                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="../images/logo1.png" width="355px" height="32px;"></div>
+            <div class="container  mainWidth footerMobile">
+                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="../images/logo1.png"  width="355px" height="32px;"></div>
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
                         <h5>PRODUCT OF </h5>
@@ -199,14 +192,20 @@ color: #463DFF;" class=" mb45"><a href="../pages/faqs.html">See all FAQs</a></h3
                         
                     </div>
                     <div class="col-md-3 col-xs-12">
-                        <h5> SITEMAP </h5>
-                        <p><a href="#">All courses</a></p>
-                        <p><a href="#">Sample Videos</a></p>
-                        <p><a href="../pages/UPSC%20guru.html">UPSC Guru</a></p>
-                        <p><a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a> </p><br>
-                        <h5> INFORMATION  </h5>
+                        <div class="col-md-12 col-xs-6 noPadding">
+                            <h5> SITEMAP </h5>
+                            <p><a href="../pages/Courses.html">All courses</a></p>
+                            <p><a href="../pages/videos.html">Sample Videos</a></p>
+                            <p><a href="../pages/UPSC%20guru.html">UPSC Guru</a></p>
+                            <p><a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a> </p><br>
+                        </div>
+                        <div class="col-md-12 col-xs-6 noPadding">
+                            <h5> INFORMATION  </h5>
                         <p><a href="../pages/aboutus.html">About Us </a></p>
                         <p><a href="#">Contact Us</a>  </p>
+                        </div>
+                        
+                        
                     
                     </div>
                     <div class="col-md-3 col-xs-12">
@@ -220,14 +219,14 @@ color: #463DFF;" class=" mb45"><a href="../pages/faqs.html">See all FAQs</a></h3
                     
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt15">
                     <div class="col-md-6 col-xs-12 footerDownload">
                         <p>Don’t waste time in browsing several apps! </p>
                         <p>The only app that you need for UPSC preparation is here!</p>
                     </div>
                     <div class="col-md-6 col-xs-12 appstoreMobile">
-                        <div class="col-md-6 col-xs-6"><img src="../images/android.png" width="189px" height="57px"></div>
-                        <div class="col-md-6 col-xs-6"><img src="../images/apple.png" width="189px" height="57px"></div>
+                        <div class="col-md-6 col-xs-6"><img src="../images/android1.png" class="mobileStoreImg" width="189px" height="57px"></div>
+                        <div class="col-md-6 col-xs-6"><img src="../images/apple.png" class="mobileStoreImg" width="189px" height="57px"></div>
                     </div>
                 </div>
             </div>
