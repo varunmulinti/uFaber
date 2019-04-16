@@ -95,6 +95,9 @@ color: #000000;
 .mb45{
     margin-bottom: 45px;
 }
+.ml45{
+    margin-left: 45px;
+}
 .mt50{
     margin-top: 50px;
 }
@@ -1007,6 +1010,48 @@ color: rgba(51, 51, 51, 0.8);
 .webHide{
     display: none;
 }
+
+.coursePannelHead h5{
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+.coursePannelHead{
+    padding: 25px 60px;
+}
+.courseTextPadding {
+    padding: 25px 35px;
+}
+.courseBtn {
+    border: 1px solid #B100FF;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #AA04FF;
+    margin-left: 18px;
+    margin-top: 15px; 
+    padding: 16px 42px;
+}
+.courseInnerText {
+    font-size: 18px;
+    padding-left: 15px;
+    opacity: 0.7;
+}
+.courseHelp {
+    box-shadow: 4px 4px 10px #E0D5F4;
+    border-radius: 25px; 
+    margin-bottom: 60px;
+    padding: 25px 30px;
+}
+.courseHelpImg{
+    margin-top: 15px;
+}
+.courseHelpText {
+    font-size: 23px; 
+    opacity: 0.6
+}
+
+
+
 /*-------------------------------*/
 /*         mobile Carousel       */
 /*-------------------------------*/
@@ -1067,7 +1112,11 @@ color: rgba(51, 51, 51, 0.8);
 .textBlack{
     color:black;
 }
-
+.courseText{
+    font-size: 20px;
+    line-height: 31px; 
+    color: #494949;
+}
 
 
 
@@ -1110,6 +1159,12 @@ color: rgba(51, 51, 51, 0.8);
     .mobileMarginNone{
         margin: 0px;
     }
+    .mobilePaddingNone{
+        padding: 0px;
+    }
+    .mobileMt15{
+        margin-top: 15px;
+    }
     h1{
         font-weight: 800 !important;
         font-size: 21px !important;
@@ -1146,6 +1201,7 @@ color: rgba(51, 51, 51, 0.8);
         text-align: center;
     }
     .guruMobileText{
+        margin-top: 10px;
         font-size: 14px;
         line-height: 25px;
         text-align: center;
@@ -1197,6 +1253,50 @@ color: rgba(51, 51, 51, 0.8);
     }
     .mobilePl23{
         padding-left: 23px;
+    }
+    .coursePannelHead{
+        padding: 25px 30px;
+    }
+    .coursePannelHead h5{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .courseTextPadding{
+        padding: 0px;
+        margin: 0px;
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .courseImg {
+        width: 132px;
+        height: 127px;
+    }
+    .courseBtn{
+        padding: 10px 26px;
+        margin-left: 0px;
+    }
+    .courseInnerImg {
+    width: 16px;
+    height: 16px;
+    }
+    .courseInnerText{
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .courseHelpImg {
+        margin-top: 35px;
+    }
+    .courseHelpImg img{
+        width: 72px;
+        height: 57px;
+    }
+    .courseHelp{
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 5px;
+    }
+    .courseHelpText{
+        font-size: 10px;
     }
     
     
@@ -1252,9 +1352,6 @@ line-height: 24px;
         font-size: 20px;
         line-height: 31px;
     }
-    /*.footer, .questions, .greyBackground, .backgroundBlue{
-        width: 125%;
-    }*/
     .appstoreMobile{
         margin-left: -13px;
     }
@@ -1265,7 +1362,7 @@ line-height: 24px;
     .faqSecOne img{
         width: 250px;
         height: 200px;
-            margin-left: 70px;
+            margin-left: 45px;
     }
     .questionsMain{
         margin-left: 75px;
@@ -1314,6 +1411,16 @@ line-height: 24px;
         padding: 0px !important;
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
