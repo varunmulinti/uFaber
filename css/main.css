@@ -1162,6 +1162,9 @@ color: rgba(51, 51, 51, 0.8);
     .mobilePaddingNone{
         padding: 0px;
     }
+    .mobileMt5{
+        margin-top: 5px;
+    }
     .mobileMt15{
         margin-top: 15px;
     }
@@ -1238,7 +1241,8 @@ color: rgba(51, 51, 51, 0.8);
         height: 26px;
     }
     .fs34{
-        font-size: 16px;
+        font-size: 16px !important;
+        line-height: 24px !important;
     }
     .mobileHide{
         display: none;
@@ -1307,6 +1311,42 @@ color: rgba(51, 51, 51, 0.8);
     .scholarshipSecOne img{
         margin-left: 50px;
     }
+    .testimonialSecOne img{
+            margin-left: 35px;
+    }
+    .resultStats p{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .testimonialSubDiv p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .testiImg{
+        width: 24px;
+        height: 24px;
+    }
+    .testimonialPerson h5{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .testimonialPerson p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .testimonialSubDiv{
+            padding: 25px 15px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
