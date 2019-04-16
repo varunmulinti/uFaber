@@ -59,6 +59,9 @@ color: #000000;
 .mt10{
     margin-top: 10px;
 }
+.mt15{
+    margin-top: 15px;
+}
 .mt20{
     margin-top: 20px;
 }
@@ -73,6 +76,9 @@ color: #000000;
 }
 .mt30{
     margin-top: 30px;
+}
+.mr30{
+    margin-right: 30px !important;
 }
 .mt35{
     margin-top: 35px;
@@ -103,6 +109,9 @@ color: #000000;
 }
 .mb60{
     margin-bottom: 60px !important;
+}
+.ml75{
+    margin-left: 75px;
 }
 .mt80{
     margin-top: 80px !important;
@@ -178,6 +187,9 @@ padding-top: 38px !important;
 }
 .textColor{
     color: rgba(51, 51, 51, 0.6);
+}
+.fs34{
+ font-size: 34px;   
 }
 /*-------------------------------*/
 /*     Topr nav styles        */
@@ -510,9 +522,7 @@ color: rgba(51, 51, 51, 0.6);
     opacity: 0.9;
     padding: 35px;
 }
-.personalMentor2{
-    display: none;
-}
+
 .testimonials{
     width: 100%;
 min-height: 324px;
@@ -826,151 +836,17 @@ line-height: 12px !important;
 color: rgba(51, 51, 51, 0.6);
 }
 
-/*-------------------------------*/
-/*           Media Query         */
-/*-------------------------------*/
 
 
 
-@media screen and (max-width: 480px) {
-    .navbar-right{
-        margin-left: 220px;
-    }
-  .introVideo {
-    width: 86%;
-  }
-    .closeBtn{
-        left: 0px;
-    }
-    
-    .imgB1{
-        width: 360px;
-        left: 0px;
-    }
-    .navbar-header{
-        margin-left: 15px !important;
-    }
-    #introDiv h1{
-        font-weight: 800;
-        font-size: 24px;
-        line-height: 38px;
-    }
-    .supportImg, .imgA1{
-        display: none;
-    }
-    .getDemoBtn{
-            margin: 240px 0px 0px 50px;
-    }
-    .introDivMobile{
-            margin-top: -80px;
-    }
-    .facts{
-            margin-top: 56px;
-    }
-    .facts p{
-        font-size: 12px;
-line-height: 24px;
-    }
-    #landingSecTwo h2{
-        font-size: 20px;
-        line-height: 31px;
-        margin-bottom: -40px;
-    }
-    #landingSecTwo img{
-        width: 330px
-    }
-    .personalMentor1{
-        display: none;
-    }
-    .personalMentor2{
-        display: block;
-    }
-    .testimonials{
-        height: 511px
-    }
-    .resultQuoteRight{
-        left:30px;
-    }
-    .testimonialImg{
-        margin-left: 95px;
-            margin-bottom: 30px;
-    }
-    .item p{
-        font-size: 16px;
-        line-height: 29px;
-    }
-    .testimonials ol{
-        margin: 0px 0px -35px -105px;
-    }
-    .landing-quote-right{
-        left:30px;
-    }
-    #landingSecThree h2{
-        font-size: 20px;
-        line-height: 31px;
-    }
-    /*.footer, .questions, .greyBackground, .backgroundBlue{
-        width: 125%;
-    }*/
-    .appstoreMobile{
-        margin-left: -13px;
-    }
-    .appstoreMobile img{
-        width: 150px;
-        height: 53px;
-    }
-    .faqSecOne img{
-        width: 250px;
-        height: 200px;
-            margin-left: 70px;
-    }
-    .questionsMain{
-        margin-left: 75px;
-    }
-    .questionsPanelDes{
-        margin: 0px;
-    }
-    .scholarshipSecOne img{
-        margin-top: -420px
-    }
-    .scholarshipSecOne button{
-            margin: 240px 0px 0px 50px;
-    }
-    .resultChamp{
-        height: 655px;
-    }
-    .resultChamp h2{
-        margin-left: 0px !important;
-    }
-    .resultRestimonialGroup{
-        padding-left: 30px;
-    }
-    .resultTestimonialBox{
-        margin-bottom: 90px;
-    }
-    .resultDemoBtn{
-        margin: 0px;
-    }
-    .aboutUpsc{
-        right: 15px;
-    }
-    .aboutPhilosophy p{
-        text-align: center;
-    }
-    .team{
-        padding: 0px;
-    }
-    .guruMobile1 img{
-        width: 100px;
-        height: 100px;
-    }
-    .guruImage img{
-        width: 330px;
-    }
-    .mobileNoPadding{
-        padding: 0px !important;
-    }
-}
+
+
+
+
+
+
+
+
 .navLogo {
     margin-top: 15px;
 }
@@ -1127,3 +1003,231 @@ color: rgba(51, 51, 51, 0.8);
 .pt45 {
     padding-top: 45px;
 }
+.mobileDisplay {
+    display: none;
+}
+.mobileHorizontalLine{
+    display: none;
+}
+
+/*-------------------------------*/
+/*           Media Query         */
+/*-------------------------------*/
+
+
+
+@media screen and (max-width: 480px) {
+    
+    .mobile-Mt0{
+        margin-top: 0px;
+    }
+    .closeBtn{
+        left: 0px;
+    }
+    .navLogo{
+        width: 172px;
+        height: 28px;
+    }
+    .videoImg{
+        width: 338px;
+        height: 320px;
+    }
+    .videoImg{
+        margin-left: -10px;
+        margin-top: -35px;
+    }
+    .imgA1{
+        width: 77px;
+        height: 76px;
+            top: 117px;
+    left: 145px;
+    }
+    .mianMobileIntro{
+        display: none;
+    }
+    .mobileMarginNone{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    h1{
+        font-weight: 800;
+        font-size: 21px;
+        line-height: 33px;
+        text-align: center;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    h3{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .landingMobileStats{
+        width: 37px;
+        height: 40px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .webDisplay{
+        display: none;
+    }
+    .mobileDisplay{
+        display: block;
+    }
+    .mobileText{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .mobileHorizontalLine{
+        border-color: black;
+        width: 9%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .testimonials{
+        height: 610px;
+    }
+    .landingmobile1{
+        width: 119px;
+        height: 288px;
+        margin-right: 0px !important;
+    }
+    .mobileStoreImg{
+        width: 70px;
+        height: 26px;
+    }
+    .fs34{
+        font-size: 16px;
+    }
+    .mobileHide{
+        display: none;
+    }
+    .mobileFloatRight{
+        float: right;
+        margin-right: 75px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .navbar-header{
+        margin-left: 15px !important;
+    }
+    .getDemoBtn{
+        margin: 10px 60px;
+    }
+    .introDivMobile{
+            margin-top: -80px;
+    }
+    .facts{
+            margin-top: 56px;
+    }
+    .facts p{
+        font-size: 12px;
+line-height: 24px;
+    }
+    #landingSecTwo h2{
+        font-size: 20px;
+        line-height: 31px;
+        margin-bottom: -40px;
+    }
+    #landingSecTwo img{
+        width: 330px
+    }
+    
+    
+    .resultQuoteRight{
+        left:30px;
+    }
+    .testimonialImg{
+        margin-left: 95px;
+            margin-bottom: 30px;
+    }
+    .item p{
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .testimonials ol{
+        margin: 0px 0px -35px -105px;
+    }
+    .landing-quote-right{
+        left:30px;
+    }
+    #landingSecThree h2{
+        font-size: 20px;
+        line-height: 31px;
+    }
+    /*.footer, .questions, .greyBackground, .backgroundBlue{
+        width: 125%;
+    }*/
+    .appstoreMobile{
+        margin-left: -13px;
+    }
+    .appstoreMobile img{
+        width: 150px;
+        height: 53px;
+    }
+    .faqSecOne img{
+        width: 250px;
+        height: 200px;
+            margin-left: 70px;
+    }
+    .questionsMain{
+        margin-left: 75px;
+    }
+    .questionsPanelDes{
+        margin: 0px;
+    }
+    .scholarshipSecOne img{
+        margin-top: -420px
+    }
+    .scholarshipSecOne button{
+            margin: 240px 0px 0px 50px;
+    }
+    .resultChamp{
+        height: 655px;
+    }
+    .resultChamp h2{
+        margin-left: 0px !important;
+    }
+    .resultRestimonialGroup{
+        padding-left: 30px;
+    }
+    .resultTestimonialBox{
+        margin-bottom: 90px;
+    }
+    .resultDemoBtn{
+        margin: 0px;
+    }
+    .aboutUpsc{
+        right: 15px;
+    }
+    .aboutPhilosophy p{
+        text-align: center;
+    }
+    .team{
+        padding: 0px;
+    }
+    .guruMobile1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .guruImage img{
+        width: 330px;
+    }
+    .mobileNoPadding{
+        padding: 0px !important;
+    }
+}
+
+
+
+
