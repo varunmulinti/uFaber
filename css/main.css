@@ -68,6 +68,9 @@ color: #000000;
 .mb15{
     margin-bottom: 15px;
 }
+.ml15{
+    margin-left: 15px;
+}
 .mt20{
     margin-top: 20px;
 }
@@ -131,6 +134,9 @@ color: #000000;
 .mt90{
     margin-top: 90px;
 }
+.ml90{
+    margin-left: 90px;   
+}
 .mb90{
     margin-bottom: 90px;
 }
@@ -142,6 +148,9 @@ color: #000000;
 }
 .ml120{
     margin-left: 120px;
+}
+.mt140{
+    margin-top: 140px;
 }
 .mt150{
     margin-top: 150px;
@@ -208,6 +217,12 @@ padding-top: 38px !important;
 }
 .fs34{
  font-size: 34px;   
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
 }
 /*-------------------------------*/
 /*     Topr nav styles        */
@@ -1231,6 +1246,45 @@ color: rgba(51, 51, 51, 0.8);
     padding-left: 15px; 
     opacity: 0.7;
 }
+.paymentSecOne .paymentpara{
+    font-weight: normal;
+font-size: 16px;
+line-height: 29px;
+color: #333333;
+}
+.paymentparaOne{
+    font-size: 13px !important;
+}
+.paymentSecOne p{
+    font-size: 14px;
+line-height: 25px;
+color: rgba(51, 51, 51, 0.6);
+}
+.paymentSpecialPara{
+    font-size: 10px !important;
+line-height: normal !important;
+}
+.paymentBtn{
+    width: 276px;
+        font-family: Lato;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    height: 56px;
+    background: linear-gradient(105.6deg, #AD28FF -16.37%, #463DFF 63.57%, #3E41BF 139.2%);
+    border-radius: 4px;
+}
+.paymentDiv-2 {
+    float: right;
+    width: 336px;
+    height: 567px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
+    border-radius: 4px;
+}
+
 /*-------------------------------*/
 /*         mobile Carousel       */
 /*-------------------------------*/
@@ -1291,6 +1345,9 @@ color: rgba(51, 51, 51, 0.8);
 .textBlack{
     color:black !important;
 }
+.textBlue{
+    color: #463DFF !important;
+}
 .courseText{
     font-size: 20px;
     line-height: 31px; 
@@ -1346,6 +1403,10 @@ color: rgba(51, 51, 51, 0.8);
     }
     .mobileMt15{
         margin-top: 15px;
+    }
+    .mobileMargin15{
+        margin-right: 15px;
+        margin-left: 15px;
     }
     .mobileMb15{
         margin-bottom: 15px;
@@ -1577,8 +1638,13 @@ color: rgba(51, 51, 51, 0.8);
     .mobileCarousel h5{
         position: unset;
     }
-    
-    
+    .paymentDiv-2{
+        float: left;
+        margin-left: 12px;
+    }
+    .videoPageBackground{
+        background: none;
+    }
     
     
     
@@ -1588,7 +1654,8 @@ color: rgba(51, 51, 51, 0.8);
     
     
     .navbar-header{
-        margin-left: 15px !important;
+        margin-left: 41px !important;
+        margin-right: -36px;
     }
     .getDemoBtn{
         margin: 10px 60px;
@@ -1688,6 +1755,8 @@ line-height: 24px;
         padding: 0px !important;
     }
 }
+
+
 
 
 

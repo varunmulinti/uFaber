@@ -32,10 +32,10 @@
     <!-- Top Navigation -->
     
     <nav class="navbar navbar-fixed-top">
-        <div class="container mainWidth noPadding">
-            <a href="../index.html"><img class="navLogo" src="../images/logo.png" width="270px" height="34px"></a>
+        <div class="container mainWidth">
+            <a href="index.html"><img class="navLogo" src="../images/logo.png" width="270px" height="34px"></a>
             
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right mobileFloatRight">
               <li><div class="navbar-header">
                 <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
                     <h6 class="hamb-menu-top">MENU</h6>
@@ -77,11 +77,15 @@
     
     <!-- Page Content -->
     <section class="videoPageBackground">
-        <div class="container mainWidth mt80">
+        <div class="container mainWidth mt80 ">
             <div id="introDiv" class="row mt45 mb30">
-                    <div class="col-md-5 col-xs-12 mt160 ">
-                       <h1> Videos </h1>
-                        <p class="guruIntro mb45">Curated videos by experienced teachers to give you an idea of kind of content we provide in the courses</p> 
+                <div class="col-xs-12 mobilePaddingNone mobileShow webHide">
+                        <img src="../images/video3.png" width="300px" height="277px">
+                        
+                    </div>
+                    <div class="col-md-5 col-xs-12 mt160 mobileMarginNone mobileMt25 mobileTextColor">
+                       <h1 class="guruMobileh1"> Videos </h1>
+                        <p class="guruIntro mb45 guruMobileText">Curated videos by experienced teachers to give you an idea of kind of content we provide in the courses</p> 
                     </div>
                     <!--<div class="col-md-6 col-xs-12 guruImage">
                         <img src="../images/VideoPage1.png" class="ml60" width="442px" height="505px">
@@ -408,7 +412,7 @@ color: #979797;" class=" mb45">That’s all, folks!</h3>
     </section>
     <hr style="width: 80%;">
      <section >
-        <div class="greyBackground container mainWidth mt45" style="box-shadow: 4px 4px 10px #E0D5F4;border-radius: 25px; margin-bottom: 60px">
+        <div class="greyBackground container mainWidth mt45 mobileMargin15" style="box-shadow: 4px 4px 10px #E0D5F4;border-radius: 25px; margin-bottom: 60px">
             <div class="container mainWidth" style="padding: 25px 30px;">
                 <div class="col-md-10 col-xs-12">
                     <h2 style=" font-size: 32px">Looking for samples of any specific topics?</h2>
@@ -425,8 +429,8 @@ color: #979797;" class=" mb45">That’s all, folks!</h3>
     
     <section id="landingSecFive">
         <div class="footer">
-            <div class="container mainWidth footerMobile">
-                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="../images/logo1.png" width="355px" height="32px;"></div>
+            <div class="container  mainWidth footerMobile">
+                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="../images/logo1.png"  width="355px" height="32px;"></div>
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
                         <h5>PRODUCT OF </h5>
@@ -444,14 +448,20 @@ color: #979797;" class=" mb45">That’s all, folks!</h3>
                         
                     </div>
                     <div class="col-md-3 col-xs-12">
-                        <h5> SITEMAP </h5>
-                        <p><a href="#">All courses</a></p>
-                        <p><a href="#">Sample Videos</a></p>
-                        <p><a href="../pages/UPSC%20guru.html">UPSC Guru</a></p>
-                        <p><a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a> </p><br>
-                        <h5> INFORMATION  </h5>
+                        <div class="col-md-12 col-xs-6 noPadding">
+                            <h5> SITEMAP </h5>
+                            <p><a href="../pages/Courses.html">All courses</a></p>
+                            <p><a href="../pages/videos.html">Sample Videos</a></p>
+                            <p><a href="../pages/UPSC%20guru.html">UPSC Guru</a></p>
+                            <p><a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a> </p><br>
+                        </div>
+                        <div class="col-md-12 col-xs-6 noPadding">
+                            <h5> INFORMATION  </h5>
                         <p><a href="../pages/aboutus.html">About Us </a></p>
                         <p><a href="#">Contact Us</a>  </p>
+                        </div>
+                        
+                        
                     
                     </div>
                     <div class="col-md-3 col-xs-12">
@@ -465,14 +475,14 @@ color: #979797;" class=" mb45">That’s all, folks!</h3>
                     
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt15">
                     <div class="col-md-6 col-xs-12 footerDownload">
                         <p>Don’t waste time in browsing several apps! </p>
                         <p>The only app that you need for UPSC preparation is here!</p>
                     </div>
                     <div class="col-md-6 col-xs-12 appstoreMobile">
-                        <div class="col-md-6 col-xs-6"><img src="../images/android.png" width="189px" height="57px"></div>
-                        <div class="col-md-6 col-xs-6"><img src="../images/apple.png" width="189px" height="57px"></div>
+                        <div class="col-md-6 col-xs-6"><img src="../images/android1.png" class="mobileStoreImg" width="189px" height="57px"></div>
+                        <div class="col-md-6 col-xs-6"><img src="../images/apple.png" class="mobileStoreImg" width="189px" height="57px"></div>
                     </div>
                 </div>
             </div>
