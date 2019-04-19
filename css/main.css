@@ -415,8 +415,8 @@ color: #FFFFFF;
 
 .imgA1 {
   position: absolute;
-        top: 240px;
-    left: -20px;
+        top: 200px;
+    cursor: pointer;
 }
 
 .logoNav{
