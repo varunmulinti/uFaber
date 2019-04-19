@@ -1060,9 +1060,9 @@ color: rgba(51, 51, 51, 0.8);
     border-radius: 4px;
     background-color: transparent;
     color: #AA04FF;
-    margin-left: 18px;
-    margin-top: 15px; 
+    margin-top: 20px; 
     padding: 16px 42px;
+    margin-bottom: 10px;
 }
 .courseInnerText {
     font-size: 18px;
@@ -1284,7 +1284,54 @@ line-height: normal !important;
     box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
     border-radius: 4px;
 }
-
+.CourseImg img{
+    margin-left: -25px;
+    margin-top: -40px;
+}
+.CourseImg1 img{
+    margin-left: -13px;
+    margin-top: -70px;
+}
+.CourseImg2 img{
+    margin-left: -15px;
+    margin-top: -43px;
+}
+.CourseImg3 img{
+    margin-left: -7px;
+    margin-top: -47px;
+}
+.CourseImg3 button{
+    margin-top: 25px;
+}
+.CourseImg4 img, .CourseImg6 img {
+    margin-top: -70px;
+}
+.CourseImg4 button, .CourseImg5 button, .CourseImg6 button{
+    margin-top: 30px;
+}
+.CourseImg5 img{
+    margin-top: -60px
+}
+.CourseImg7 img{
+    margin-left: -50px;
+    margin-top: -25px;
+}
+.CourseImg7 button{
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+.courseDescription{
+    font-size: 14px;
+line-height: 21px;
+}
+.optionalCourseInnerText{
+    font-size: 16px;
+line-height: normal;
+        padding-left: 15px;
+}
+.optionalCourseTextPadding{
+    padding: 25px 58px;
+}
 /*-------------------------------*/
 /*         mobile Carousel       */
 /*-------------------------------*/
@@ -1414,6 +1461,12 @@ line-height: normal !important;
     .mobileMt25{
         margin-top: 25px !important;
     }
+    .mobileMt-35{
+        margin-top: -35px;
+    }
+    .mobileMt35{
+        margin-top: 35px;
+    }
     h1{
         font-weight: 800 !important;
         font-size: 21px !important;
@@ -1524,6 +1577,7 @@ line-height: normal !important;
     .courseBtn{
         padding: 10px 26px;
         margin-left: 0px;
+        margin-bottom: 0px;
     }
     .courseInnerImg {
     width: 16px;
@@ -1645,8 +1699,28 @@ line-height: normal !important;
     .videoPageBackground{
         background: none;
     }
-    
-    
+    .videos .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+        background-color: transparent !important;
+        color: inherit;
+    }
+    .videos .dropdown-menu{
+        min-width: 226px;
+    }
+    .optionalCourseTextPadding{
+        padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    line-height: 17px;
+    }
+    .optionalCourseInnerText{
+        font-weight: 500;
+    font-size: 10px;
+    }
+    .CourseImg img, .CourseImg1 img, .CourseImg2 img, .CourseImg3 img, .CourseImg4 img, .CourseImg5 img, .CourseImg6 img, .CourseImg7 img {
+    margin-left: 0px;
+        margin-top: 0px;
+    }
+   
     
     
     
