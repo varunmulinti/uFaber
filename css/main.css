@@ -74,6 +74,9 @@ color: #000000;
 .mt20{
     margin-top: 20px;
 }
+.mt25{
+    margin-top: 25px;
+}
 .mb25{
     margin-bottom: 25px;
 }
@@ -213,7 +216,7 @@ padding-top: 38px !important;
     float: left;
 }
 .textColor{
-    color: rgba(51, 51, 51, 0.6);
+    color: rgba(51, 51, 51, 0.6) !important;
 }
 .fs34{
  font-size: 34px;   
@@ -793,12 +796,11 @@ color: rgba(51, 51, 51, 0.6);
     max-height: 320px;
 }
 .aboutUpsc{
-    position: relative;
-    background-color: white;
-    bottom: 76px;
-    right: 40px;
     padding: 32px;
-    box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
+}
+.aboutUpsc h2{
+    font-size: 30px;
+line-height: 47px;
 }
 .aboutUpsc h2, .aboutPhilosophy h2{
     text-align: center;
@@ -828,8 +830,8 @@ color: rgba(51, 51, 51, 0.8);
         font-size: 16px;
     line-height: 29px;
     color: rgba(51, 51, 51, 0.6);
-    padding: 0px 140px;
     margin-bottom: 100px;
+    text-align: center;
 }
 .teamBox h4{
     font-size: 14px;
@@ -1332,6 +1334,18 @@ line-height: normal;
 .optionalCourseTextPadding{
     padding: 25px 58px;
 }
+.career p{
+    font-size: 16px;
+line-height: 25px;
+color: #000000;
+}
+.career button{
+        width: 376px;
+    height: 64px;
+    border-radius: 32px;
+    font-size: 18px;
+line-height: 28px;
+}
 /*-------------------------------*/
 /*         mobile Carousel       */
 /*-------------------------------*/
@@ -1720,7 +1734,10 @@ line-height: normal;
     margin-left: 0px;
         margin-top: 0px;
     }
-   
+    .career button{
+        width: 230px;
+        height: 56px;
+    }
     
     
     
@@ -1809,9 +1826,7 @@ line-height: 24px;
     .resultDemoBtn{
         margin: 0px;
     }
-    .aboutUpsc{
-        right: 15px;
-    }
+    
     .aboutPhilosophy p{
         text-align: center;
     }

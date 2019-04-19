@@ -32,17 +32,18 @@
     <!-- Top Navigation -->
     
     <nav class="navbar navbar-fixed-top">
-        <div class="container mainWidth noPadding">
-            <div class="navbar-header">
+        <div class="container mainWidth">
+            <a href="index.html"><img class="navLogo" src="../images/logo.png" width="270px" height="34px"></a>
+            
+            <ul class="nav navbar-nav navbar-right mobileFloatRight">
+              <li><div class="navbar-header">
                 <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
                     <h6 class="hamb-menu-top">MENU</h6>
                     <span class="hamb-top"></span>
                     <span class="hamb-middle"></span>
                     <span class="hamb-bottom"></span>
                 </button>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html"><img src="../images/logo.png" width="118px" height="52px"></a></li>
+            </div></li>
             </ul>
         </div>
     </nav>
@@ -76,25 +77,37 @@
     
     <!-- Page Content -->
     <section>
-        <div class="container landingSecOne resultSecOne aboutSecOne">
-            <h1>About us</h1>
-            <p class="mb30">Our specialization lies in helping you ace the UPSC examination!</p>
-            <img src="../images/IMG_240735.jpg">
+        <div class="container faqSecOne mainWidth mt80">
+            <div id="introDiv" class="row mt45">
+                <div class="col-md-6 col-xs-12 mobileShow webHide">
+                        <img src="../images/about1.png" class="" width="750px" height="490px">
+                    </div>
+                    <div class="col-md-5 col-xs-12 introMobile mt45">
+                       <h1 class="mt45 mb45 mobileMarginNone">About us</h1>
+                        <p class="courseText guruMobileText textColor">Our specialization lies in helping you ace the UPSC examination!</p> 
+
+                    </div>
+                    <div class="col-md-6 col-xs-12 mobileHide">
+                        <img src="../images/about1.png" class="" width="548px" height="535px">
+                        
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="">
+        <div class="container mainWidth">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 aboutUpsc mb30 mobilePaddding15 mt25">
+                    <h2 class="mb25">What is UPSC Pathshala? </h2>
+                    <p>UPSC pathshala is one of the successful brands of uFaber Edutech Pvt Ltd. We train our students on a very unique pedagogy with personalized training. Our students learn from over <span style="color: #7522FF;font-weight: bold">300+hours of high quality video content</span> and get a Personal Mentor who guides the student throughout the preparation.</p>
+                    <p>We have a <span style="color: #7522FF; font-weight: bold">Personal Mentor network of 200+ qualified mentors</span> consisting of IItians and Ex- Civil servants. UPSC Pathshala has achieved some amazing results among the <span style="color: #7522FF; font-weight: bold">5000+ students that we enroll every year</span>.</p>
+                </div>
+            </div>
         </div>
     </section>
     <section class="greyBackground">
-        <div class="container noPadding mainWidth ">
-            <div class="row" style=" margin-bottom: -20px;">
-                <div class="col-md-2 col-xs-2"></div>
-                <div class="col-md-9 col-xs-9 aboutUpsc">
-                    <h2>What is UPSC Pathshala? </h2>
-                    <p>UPSC pathshala is one of the successful brands of uFaber Edutech Pvt Ltd. We train our students on a very unique pedagogy with personalized training. Our students learn from over <span style="color: #463DFF; font-weight: bold">300+hours of high quality video content</span> and get a Personal Mentor who guides the student throughout the preparation.</p>
-                    <p>We have a <span style="color: #463DFF; font-weight: bold">Personal Mentor network of 200+ qualified mentors</span> consisting of IItians and Ex- Civil servants. UPSC Pathshala has achieved some amazing results among the <span style="color: #463DFF; font-weight: bold">5000+ students that we enroll every year</span>.</p>
-                </div>
-                <div class="col-md-1 col-xs-1"></div>
-            </div>
-            <div class="aboutPhilosophy">
-                <h2>Our Philosophy</h2>
+        <div class="container mainWidth aboutPhilosophy">
+            <h2>Our Philosophy</h2>
                 <div class="row">
                     <div class="col-md-4 col-xs-12 p32">
                         <div><img src="../images/knowledgebulb.png" class="center" width="73px" height="73px"></div>
@@ -112,13 +125,12 @@
                         <p>Education should be accessible to all at a reasonable cost. That is why we provide the best quality training at a cost less than 1/4 of any other institution. </p>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
     <section>
         <div class="container mainWidth resultTestimonial mt45">
             <h2 class="mb30">Our Team </h2>
-            <p class="team">UPSC Pathshala is an agglomeration of some of India's finest and most passionate educators. We have alumunus of IITs, Delhi University, Mumbai University along with the many serving Civil Servants contributing to the structuring of the course.</p>
+            <p class="team"> UPSC Pathshala is an agglomeration of some of India's finest and most passionate educators. We have alumunus of IITs, Delhi University, Mumbai University along with the many serving Civil Servants contributing to the structuring of the course.</p>
             <div class="row mb45 teamBox resultRestimonialGroup">
                 <div class="col-md-4 col-xs-12 resultTestimonialBox mr25">
                     <div class="resultTestimonialImage"><img src="../images/avatar.png" width="112px" height="112px"></div>
@@ -156,24 +168,24 @@
             </div>
         </div>
     </section>
-    <section id="landingSecFour" class=" greyBackground mt45">
-        <div class="container mainWidth">
-            <div class="row pt30 pb30 resultDemo">
-                <div class="col-md-6">
-                    <h2 style="font-weight: bold;font-size: 24px;line-height: 38px;">Still confused?</h2>
-                    <p style="font-size: 16px;line-height: 24px;color: rgba(51, 51, 51, 0.6);">Book a free demo session to get a personal mentor to help you clear your doubts and prepare you.</p>
+    <section class=" greyBackground mt45">
+        <div class="container mainWidth career">
+            <div class="row pt30 pb30">
+                <div class="col-md-12">
+                    <h2 class="textCentre mb25">LOOKING FOR CAREER OPPORTUNITIES?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, qiquip ex ea commodo consequat.</p>
                 </div>
                 <div class="col-md-3"></div>
                 <div class="col-md-3 mt45">
-                    <button type="button" class="btn btn-default getDemoBtn resultDemoBtn">Book a FREE Demo</button>
+                    <button type="button" class="btn btn-default getDemoBtn">CURRENT OPENINGS<i class="fas fa-long-arrow-alt-right float-right"></i></button>
                 </div>
             </div>
         </div>
     </section>
     <section id="landingSecFive">
         <div class="footer">
-            <div class="container mainWidth footerMobile">
-                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo"><img src="../images/logo1.png" width="230px" height="95px;"></div>
+            <div class="container  mainWidth footerMobile">
+                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="../images/logo1.png"  width="355px" height="32px;"></div>
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
                         <h5>PRODUCT OF </h5>
@@ -191,14 +203,20 @@
                         
                     </div>
                     <div class="col-md-3 col-xs-12">
-                        <h5> SITEMAP </h5>
-                        <p><a href="#">All courses</a></p>
-                        <p><a href="#">Sample Videos</a></p>
-                        <p><a href="../pages/UPSC%20guru.html">UPSC Guru</a></p>
-                        <p><a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a> </p><br>
-                        <h5> INFORMATION  </h5>
+                        <div class="col-md-12 col-xs-6 noPadding">
+                            <h5> SITEMAP </h5>
+                            <p><a href="../pages/Courses.html">All courses</a></p>
+                            <p><a href="../pages/videos.html">Sample Videos</a></p>
+                            <p><a href="../pages/UPSC%20guru.html">UPSC Guru</a></p>
+                            <p><a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a> </p><br>
+                        </div>
+                        <div class="col-md-12 col-xs-6 noPadding">
+                            <h5> INFORMATION  </h5>
                         <p><a href="../pages/aboutus.html">About Us </a></p>
                         <p><a href="#">Contact Us</a>  </p>
+                        </div>
+                        
+                        
                     
                     </div>
                     <div class="col-md-3 col-xs-12">
@@ -212,14 +230,14 @@
                     
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt15">
                     <div class="col-md-6 col-xs-12 footerDownload">
                         <p>Don’t waste time in browsing several apps! </p>
                         <p>The only app that you need for UPSC preparation is here!</p>
                     </div>
                     <div class="col-md-6 col-xs-12 appstoreMobile">
-                        <div class="col-md-6 col-xs-6"><img src="../images/android.png" width="189px" height="57px"></div>
-                        <div class="col-md-6 col-xs-6"><img src="../images/apple.png" width="189px" height="57px"></div>
+                        <div class="col-md-6 col-xs-6"><img src="../images/android1.png" class="mobileStoreImg" width="189px" height="57px"></div>
+                        <div class="col-md-6 col-xs-6"><img src="../images/apple.png" class="mobileStoreImg" width="189px" height="57px"></div>
                     </div>
                 </div>
             </div>
