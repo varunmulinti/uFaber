@@ -31,46 +31,16 @@
 <body>
     <!-- Top Navigation -->
     
-    <nav class="navbar navbar-fixed-top">
-        <div class="container">
-            <a href="index.html"><img class="navLogo" src="../images/logo.png" width="270px" height="34px"></a>
-            
-            <ul class="nav navbar-nav navbar-right mobileFloatRight">
-              <li><div class="navbar-header">
-                <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
-                    <h6 class="hamb-menu-top">MENU</h6>
-                    <span class="hamb-top"></span>
-                    <span class="hamb-middle"></span>
-                    <span class="hamb-bottom"></span>
-                </button>
-            </div></li>
-            </ul>
-        </div>
+    <nav class="navbar navbar-fixed-top"  w3-include-html="../pages/topnav.html">
+        
     </nav>
     
     <!-- Top Navigation -->
     
     <!-- Side Navigation -->
     
-    <div id="mySidenav" class="sidenav">
-        <div id="navContent" class="sidenavContent ">
-          <a href="#" class="sidenavhead" style="">MENU</a>
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <hr>
-          <a href="../index.html">Home</a>
-          <a href="#">Courses<span class="badge badge-secondary">New</span></a>
-          <a href="#">Videos<span class="badge badge-secondary">New</span></a>
-          <a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a>
-          <a href="../pages/UPSC%20guru.html">UPSC Guru</a>
-          <a href="../pages/scholarship.html">Scholarships</a>
-          <a href="../pages/faqs.html">FAQs</a>
-          <hr class="sidenavHline">
-          <a class="sidenavNote">Confused? Book a demo session for <strong>FREE</strong> with one of the mentors and understand how UPSC Pathshala     will help you secure the best results. </a>
-          <button type="button" onclick="window.location.href='../pages/signup.html'" class="btn sidenavdemoBtn">Get a Free Demo</button>
-          <a class="sidenavNote mt45">Download our app and stay updated about everything UPSC!</a>
-          <a href="#"  class="navAndriod"><img src="../images/android.png" width="133px" height="40px"></a>
-          <a href="#" class="navApple"><img src="../images/apple.png" width="133px" height="40px"></a>
-        </div>
+    <div id="mySidenav" class="sidenav"  w3-include-html="../pages/sidenav.html">
+        
     </div>
     
     <!-- Side Navigation -->
@@ -144,11 +114,13 @@
             </div>
         </div>
     </section>
-    <section id="landingSecFive" class="backgroundBlue" style="height: 300px; width: 100%;margin-top: 43px">
+    <section id="landingSecFive" style="margin-top: 43px" w3-include-html="../pages/footer.html">
         
     </section>
 <!-- /#page-conten -->
     
-
+<script>
+includeHTML();
+</script>
 </body>
 </html> 

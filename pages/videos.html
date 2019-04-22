@@ -31,46 +31,16 @@
 <body>
     <!-- Top Navigation -->
     
-    <nav class="navbar navbar-fixed-top">
-        <div class="container mainWidth">
-            <a href="index.html"><img class="navLogo" src="../images/logo.png" width="270px" height="34px"></a>
-            
-            <ul class="nav navbar-nav navbar-right mobileFloatRight">
-              <li><div class="navbar-header">
-                <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
-                    <h6 class="hamb-menu-top">MENU</h6>
-                    <span class="hamb-top"></span>
-                    <span class="hamb-middle"></span>
-                    <span class="hamb-bottom"></span>
-                </button>
-            </div></li>
-            </ul>
-        </div>
+    <nav class="navbar navbar-fixed-top" w3-include-html="../pages/topnav.html">
+        
     </nav>
     
     <!-- Top Navigation -->
     
     <!-- Side Navigation -->
     
-    <div id="mySidenav" class="sidenav">
-        <div id="navContent" class="sidenavContent ">
-          <a href="#" class="sidenavhead" style="">MENU</a>
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <hr>
-          <a href="../index.html">Home</a>
-          <a href="../pages/Courses.html">Courses<span class="badge badge-secondary">New</span></a>
-          <a href="../pages/videos.html">Videos<span class="badge badge-secondary">New</span></a>
-          <a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a>
-          <a href="../pages/UPSC%20guru.html">UPSC Guru</a>
-          <a href="../pages/scholarship.html">Scholarships</a>
-          <a href="../pages/faqs.html">FAQs</a>
-          <hr class="sidenavHline">
-          <a class="sidenavNote">Confused? Book a demo session for <strong>FREE</strong> with one of the mentors and understand how UPSC Pathshala     will help you secure the best results. </a>
-          <button type="button" onclick="window.location.href='../pages/signup.html'" class="btn sidenavdemoBtn">Get a Free Demo</button>
-          <a class="sidenavNote mt45">Download our app and stay updated about everything UPSC!</a>
-          <a href="#"  class="navAndriod"><img src="../images/android.png" width="133px" height="40px"></a>
-          <a href="#" class="navApple"><img src="../images/apple.png" width="133px" height="40px"></a>
-        </div>
+    <div id="mySidenav" class="sidenav" w3-include-html="../pages/sidenav.html">
+        
     </div>
     
     <!-- Side Navigation -->
@@ -443,70 +413,14 @@ color: #979797;" class=" mb45">That’s all, folks!</h3>
     </section>
     
     
-    <section id="landingSecFive">
-        <div class="footer">
-            <div class="container  mainWidth footerMobile">
-                <div class="col-md-12 col-xs-12 noPadding mt45 footerLogo mb30"><img src="../images/logo1.png"  width="355px" height="32px;"></div>
-                <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                        <h5>PRODUCT OF </h5>
-                        <p class="footerUfaber">uFaber Edutech Pvt. Ltd. <br><span  style="font-weight: normal;">No. 1 Private training for UPSC Prepartions</span></p>
-                        <h5> ADDRESS </h5>
-                        <p>FF A-006, Art Guild House , Phoenix Market City,<br> Kurla, Mumbai</p>
-                        <h5> CONTACT NO. </h5>
-                        <p>+91 8080-555-766 </p><br><br>
-                        <h5> CONNECT WITH US </h5>
-                        <p class="socialLinks">
-                            <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
-                            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-                            <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-                        </p><br><br>
-                        
-                    </div>
-                    <div class="col-md-3 col-xs-12">
-                        <div class="col-md-12 col-xs-6 noPadding">
-                            <h5> SITEMAP </h5>
-                            <p><a href="../pages/Courses.html">All courses</a></p>
-                            <p><a href="../pages/videos.html">Sample Videos</a></p>
-                            <p><a href="../pages/UPSC%20guru.html">UPSC Guru</a></p>
-                            <p><a href="../pages/Results%20and%20Testimonials.html">Results & Testimonials</a> </p><br>
-                        </div>
-                        <div class="col-md-12 col-xs-6 noPadding">
-                            <h5> INFORMATION  </h5>
-                        <p><a href="../pages/aboutus.html">About Us </a></p>
-                        <p><a href="#">Contact Us</a>  </p>
-                        </div>
-                        
-                        
-                    
-                    </div>
-                    <div class="col-md-3 col-xs-12">
-                        <h5> SUPPORT  </h5>
-                        <p><a href="../pages/faqs.html">FAQs (Commonly Asked Questions) </a>  </p>
-                        <p><a href="../pages/scholarship.html">Scholarships</a>  </p>
-                        <p><a href="#"> UPSC Exam Details </a>  </p>
-                        <p><a href="#">Blogs </a>  </p>
-                        <p><a href="#">Careers</a>  </p>
-                        <p><a href="#">Terms of Use</a>  </p>
-                    
-                    </div>
-                </div>
-                <div class="row mt15">
-                    <div class="col-md-6 col-xs-12 footerDownload">
-                        <p>Don’t waste time in browsing several apps! </p>
-                        <p>The only app that you need for UPSC preparation is here!</p>
-                    </div>
-                    <div class="col-md-6 col-xs-12 appstoreMobile">
-                        <div class="col-md-6 col-xs-6"><img src="../images/android1.png" class="mobileStoreImg" width="189px" height="57px"></div>
-                        <div class="col-md-6 col-xs-6"><img src="../images/apple.png" class="mobileStoreImg" width="189px" height="57px"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="landingSecFive" w3-include-html="../pages/footer.html">
+        
     
     </section>
 <!-- /#page-conten -->
     
-
+<script>
+includeHTML();
+</script>
 </body>
 </html> 
