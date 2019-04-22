@@ -35,4 +35,11 @@ $(document).ready(function(){
     });
 });
     
+    
+    $(function(){
+  $("#navContent").load("sidnav.html"); 
+});
+    
+    
+    
 });
