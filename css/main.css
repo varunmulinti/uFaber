@@ -158,6 +158,9 @@ color: #000000;
 .mt150{
     margin-top: 150px;
 }
+.mb150{
+    margin-bottom: 150px;
+}
 .mt160{
     margin-top: 160px;
 }
@@ -458,9 +461,10 @@ color: rgba(51, 51, 51, 0.6);
   -webkit-transition: all 3s ease;
 }
 .introVideo{
-        width: 80%;
+        width: 83%;
     position: absolute;
         top: 100px;
+    left: 115px;
     z-index: 1;
 }
 .videoCloseBtn{
@@ -470,7 +474,7 @@ color: rgba(51, 51, 51, 0.6);
     float: right;
     position: relative;
     bottom: 20px;
-    left: -52px;
+    left: 110px;
 }
 .facts{
     width: 100%;
@@ -1346,6 +1350,59 @@ color: #000000;
     font-size: 18px;
 line-height: 28px;
 }
+.testSeriesBtn{
+    width: 328px;
+    height: 72px;
+    font-weight: bold;
+font-size: 21px;
+line-height: normal;
+color: #7522FF;
+}
+/*-------------------------------*/
+/*         play video page       */
+/*-------------------------------*/
+.videoBackArrow{
+    font-size: 20px;
+}
+.playVideo{
+    display: block;
+    width: 100%;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.playVideoDescription{
+    font-size: 16px;
+    line-height: 26px;
+        padding: 15px 25px;
+    background-color: rgba(70,61,255,0.1)
+}
+.playVideoCarousel .item p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: inherit;
+    text-align: left;
+    opacity: 1;
+    padding: 0px;
+}
+.playVideoCarousel .carousel-control{
+        top: 30%;
+    left: -50px;
+    border-radius: 0px;
+        background: white;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    color: black;
+}
+.playVideoCarousel .glyphicon{
+    font-size: 20px;
+    margin-left: -13px;
+}
+
+.playVideoCarousel .carousel-control.right{
+    right: 15px;
+    left: 101%;
+}
 /*-------------------------------*/
 /*         mobile Carousel       */
 /*-------------------------------*/
@@ -1431,6 +1488,14 @@ line-height: 28px;
     }
     .closeBtn{
         left: 0px;
+    }
+    .introVideo{
+        width: 100%;
+        left: 0px;
+        height: 315px !important;
+    }
+    .videoCloseBtn{
+        left: 10px;
     }
     .navLogo{
         width: 172px;

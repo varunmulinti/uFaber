@@ -41,7 +41,7 @@ function includeHTML() {
 $(document).ready(function(){
     
   $(".imgA1, .videoCloseBtn").click(function () {
-        $('#videoContent, #introDiv').toggleClass('introVideoRemove');
+        $('#videoContent').toggleClass('introVideoRemove');
   }); 
     $("#myCarousel").carousel({interval: 50000});
     
